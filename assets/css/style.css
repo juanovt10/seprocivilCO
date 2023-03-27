@@ -1,0 +1,11 @@
+header > nav {
+    display: inline-block;
+    width: 20px;
+}
+
+header > div {
+    display: inline-block;
+    width: 20%;
+    background-color: brown;
+    margin: 0; 
+}
