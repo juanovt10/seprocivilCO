@@ -1,11 +1,76 @@
-header > nav {
-    display: inline-block;
-    width: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-header > div {
-    display: inline-block;
-    width: 20%;
-    background-color: brown;
-    margin: 0; 
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* header */
+
+h1, h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+#logo {
+    float: left;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+#navigation_bar {
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+#logo, #navigation_bar {
+    line-height: 75px;
+}
+
+#navigation_bar li {
+    float: right;
+    position: relative;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#navigation_bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation_bar a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image*/
+
+#hero-outer {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+
+}
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/michael-odelberth-iRrEVy7XIVM-unsplash.jpg) no-repeat center center;
 }
