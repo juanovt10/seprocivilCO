@@ -58,7 +58,7 @@ h1, h2 {
 /* hero image*/
 
 #hero-outer {
-    height: 300px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
 
@@ -72,5 +72,40 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/michael-odelberth-iRrEVy7XIVM-unsplash.jpg) no-repeat center center;
+    background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
+}
+
+/* services section */
+
+.subtitle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#left-about {
+    width: 33%;
+    padding-top: 30px;
+    height: 600px;
+    float: left;
+    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+}
+
+#right-about {
+    width: 33%;
+    padding-top: 30px;
+    height: 600px;
+    float: right;
+    background: url(../images/road-sign-ga0ea63e3c_1280.jpg) no-repeat center center;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    padding-top: 30px;
+    height: 600px;
+    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
+}
+#services h3 {
+    text-align: center;
 }
