@@ -114,14 +114,15 @@ h1, h2 {
 
 /* footer styling */
 
-#footer {
+#footer_top {
     background-color: #233539;
-    height: 150px;
+    height: 100px;
 }
 
 #footer_nav_bar {
     font-size: 110%;
     letter-spacing: 1px;
+    margin-left: 50px;
 }
 
 #footer_nav_bar {
@@ -133,7 +134,41 @@ h1, h2 {
     position: relative;
     list-style-type: none;
     margin-right: 30px;
-    text-decoration: none;
-    color: red;
 }
 
+#footer_nav_bar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer_logo {
+    float: right;
+    font-size: 105%;
+    text-decoration: none;
+    line-height: 100px;
+    margin-right: 50px;
+}
+
+#footer_logo h1 {
+    color: #fff;
+}
+
+#footer_bottom {
+    width: 100%;
+    background-color: #41555a;
+    height: 50px;
+}
+
+#social_media {
+    text-align: center;
+}
+
+#social_media > li  {
+    display: inline;
+}
+
+#social_media i {
+    font-size: 125%;
+    margin: 1%;
+    color: #fff;
+}
