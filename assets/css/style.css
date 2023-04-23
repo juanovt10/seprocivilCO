@@ -24,6 +24,7 @@ h1, h2 {
     float: left;
     font-size: 120%;
     text-decoration: none;
+    margin-left: 30px;
 }
 
 #navigation_bar {
@@ -112,7 +113,7 @@ h1, h2 {
 }
 
 
-/* footer styling */
+/* top footer styling */
 
 #footer_top {
     background-color: #233539;
@@ -141,17 +142,23 @@ h1, h2 {
     color: #fff;
 }
 
+#footer_nav_bar a:hover {
+    border-bottom: 1px solid #fff;
+}
+
 #footer_logo {
     float: right;
     font-size: 105%;
     text-decoration: none;
     line-height: 100px;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 #footer_logo h1 {
     color: #fff;
 }
+
+/* footer bottom styling */
 
 #footer_bottom {
     width: 100%;
