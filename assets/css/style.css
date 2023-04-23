@@ -81,6 +81,7 @@ h1, h2 {
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
+    
 }
 
 #left-about {
@@ -109,3 +110,30 @@ h1, h2 {
 #services h3 {
     text-align: center;
 }
+
+
+/* footer styling */
+
+#footer {
+    background-color: #233539;
+    height: 150px;
+}
+
+#footer_nav_bar {
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+#footer_nav_bar {
+    line-height: 100px;
+}
+
+#footer_nav_bar li  {
+    float: left;
+    position: relative;
+    list-style-type: none;
+    margin-right: 30px;
+    text-decoration: none;
+    color: red;
+}
+
