@@ -104,10 +104,21 @@ h1, h2 {
     padding: 0;
     border-color: #ccc;
     background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+    display: inline-block;
 }
 
-#left_about div:hover {
-    background: rgba(163, 56, 56, 0.5);s
+#services_paint_image p {
+    text-align: center;
+    color: red;
+    text-decoration: none;
+}
+
+#services_paint_image:hover {
+    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+    border-style: solid;
+    border-color: #ccc;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
 
 #right-about {
