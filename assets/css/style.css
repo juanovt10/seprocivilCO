@@ -59,7 +59,7 @@ h1, h2 {
 /* hero image*/
 
 #hero-outer {
-    height: 600px;
+    height: 300px;
     width: 100%;
     overflow: hidden;
 
@@ -71,7 +71,7 @@ h1, h2 {
 
 }
 #hero-image {
-    height: 600px;
+    height: 300px;
     width: 100%;
     background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
 }
@@ -82,31 +82,46 @@ h1, h2 {
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
-    
+}
+
+#services h3 {
+    font-size: 110%;
+    padding-bottom: 10px;
+    text-align: left;
 }
 
 #left-about {
     width: 33%;
-    padding-top: 30px;
-    height: 600px;
+    height: 300px;
     float: left;
+    /* background: red; */
+}
+
+#services_paint_image {
+    height: 300px;
+    width: 100%; 
+    border-style: solid;
+    padding: 0;
+    border-color: #ccc;
     background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+}
+
+#left_about div:hover {
+    background: rgba(163, 56, 56, 0.5);s
 }
 
 #right-about {
     width: 33%;
-    padding-top: 30px;
-    height: 600px;
+    height: 300px;
     float: right;
-    background: url(../images/road-sign-ga0ea63e3c_1280.jpg) no-repeat center center;
+    background: green;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    padding-top: 30px;
-    height: 600px;
-    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
+    height: 300px;
+    background: blue;
 }
 #services h3 {
     text-align: center;
@@ -161,16 +176,17 @@ h1, h2 {
 /* footer bottom styling */
 
 #footer_bottom {
-    width: 100%;
+    /* width: 100%; */
     background-color: #41555a;
-    height: 50px;
+    /* height: 50px; */
 }
 
 #social_media {
     text-align: center;
+    height: 50px;
 }
 
-#social_media > li  {
+#social_media  li  {
     display: inline;
 }
 
