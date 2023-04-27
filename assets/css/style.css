@@ -14,6 +14,19 @@ body {
 
 /* header */
 
+#header {
+    height: 75px;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+    position: fixed;
+    z-index: 3;
+    border-bottom: 1px outset grey;
+    opacity: 0.95;
+    /* filter: blur(8px);  to see if I can make it work 
+    -webkit-filter: blur(8px); */
+}
+
 h1, h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
@@ -25,11 +38,13 @@ h1, h2 {
     font-size: 120%;
     text-decoration: none;
     margin-left: 30px;
+    font-weight: bold;
 }
 
 #navigation_bar {
     font-size: 110%;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 #logo, #navigation_bar {
@@ -111,7 +126,7 @@ h1, h2 {
 
 #about_us_text p {
     font-size: 120%;
-    margin: 20px 1% 20px 0;
+    margin: 20px 20% 20px 0;
     text-align: justify;
 }
 
