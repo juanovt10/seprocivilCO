@@ -212,6 +212,18 @@ h1, h2 {
 
 #services_image_1:hover {
     background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.95);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 
 
