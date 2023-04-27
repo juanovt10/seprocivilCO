@@ -99,7 +99,7 @@ h1, h2 {
 }
 
 #about_us_text {
-    width: 120%;
+    width: 80%;
     display: flex;
     flex-direction: column;
 }
@@ -111,7 +111,18 @@ h1, h2 {
 
 #about_us_text p {
     font-size: 120%;
-    margin: 20px 50% 20px 0;
+    margin: 20px 1% 20px 0;
+    text-align: justify;
+}
+
+#about_us_text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#about_us_text a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    font-style: italic;
 }
 
 #about_us_image {
@@ -178,16 +189,51 @@ h1, h2 {
 #services_image_1 {
     grid-area: image1;
     background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #services_image_2 {
     grid-area: image2;
     background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #services_image_3 {
     grid-area: image3;
     background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services_info {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* visibility: hidden; */
+}
+
+#services_layout h3 {
+    margin: 50px 0px 20px;
+    font-size: 300%;
+    text-align: center;
+}
+
+#services_layout p {
+    margin: 20px 0 50px;
+    font-size: 110%;
+}
+
+#services_layout a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
