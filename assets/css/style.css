@@ -210,6 +210,11 @@ h1, h2 {
     align-items: center;
 }
 
+#services_image_1:hover {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
+}
+
+
 #services_image_2 {
     grid-area: image2;
     background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
@@ -230,26 +235,41 @@ h1, h2 {
 
 .services_info {
     margin: 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    /* visibility: hidden; */
+    /* background-color: black;
+    visibility: hidden; */
+
 }
 
 #services_layout h3 {
     margin: 50px 0px 20px;
     font-size: 300%;
     text-align: center;
+    /* opacity: 0; */
 }
 
+/* #services_layout h3:hover {
+    opacity: 1;
+} */
+
 #services_layout p {
-    margin: 20px 0 50px;
+    margin: 20px 10px 50px;
     font-size: 110%;
+    text-align: left;
+    /* opacity: 0; */
 }
+
+/* #services_layout p:hover {
+    opacity: 1;
+} */
 
 #services_layout a {
     text-decoration: none;
     color: inherit;
 }
+
 
 
 /* project section */
