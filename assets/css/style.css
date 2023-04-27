@@ -155,7 +155,7 @@ h1, h2 {
 
 #services_layout {
     display: grid;
-    grid-template-rows: 50px 285px;
+    grid-template-rows: 40px 300px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
     'title1 title2 title3'
@@ -196,48 +196,79 @@ h1, h2 {
 #projects {
     height: 600px; 
     width: 100%;
-    background-color: red;
-}
-
-#home_projects {
+    background-color: #fff;
+    color:#233539;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    height: 300px;
-}
-
-.project_picture_container {
-    /* margin-top: 30px;
-    margin-bottom: 30px; */
-    /* background-color: red; */
-    width: 33%;
-    display: flex;
+    justify-content: center; 
     align-items: center;
-    flex-direction: column;
 }
 
-#project1_image {
-    background: url(../images/pexels-sami-aksu-9917086.jpg);
-    height: 200px;
-    width: 70%;
-
+#home_projects_container {
+    margin: 5%;
+    height: 450px;
+    width: 100%;
+    /* background-color: yellow; */
 }
 
-.home_project_title {
-    height: 100px;
-    width: 70%;
-    padding: 0;
-    background-color: red;
-    font-size: 120%;
-    padding: 0;
-    text-align: center;
+#projects h3 {
+    font-size: 300%;
+    margin-bottom: 50px;
 }
 
-/* .home_project_title h3 {
-    text-align: center;
-    padding: 10px ;
+.projects_titles {
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .projects_images {
+    width: 300px;
 } */
+
+#projects_layout {
+    margin: 0 5%;
+    display: grid;
+    grid-template-rows: 300px 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'image1 image2 image3'
+    'title1 title2 title3';
+    grid-gap: 1em 10em ;
+}
+
+#projects_image1 {
+    grid-area: image1;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#projects_image2 {
+    grid-area: image2;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#projects_image3 {
+    grid-area: image3;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.projects_title1 {
+    grid-area: title1;
+}
+
+.projects_title2 {
+    grid-area: title2;
+}
+
+.projects_title3 {
+    grid-area: title3;
+}
+
+
+
 
 /* top footer styling */
 
