@@ -217,16 +217,6 @@ h1, h2 {
     animation-fill-mode: backwards;
 }
 
-@keyframes hero-zoom {
-    from{
-        transform: scale(0.98);
-    }
-    to{
-        transform: scale(1);
-    }
-}
-
-
 #services_image_2 {
     grid-area: image2;
     background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
@@ -236,6 +226,13 @@ h1, h2 {
     align-items: center;
 }
 
+#services_image_2:hover {
+    /* background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center; */
+    animation-name: hero-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
 #services_image_3 {
     grid-area: image3;
     background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
@@ -243,6 +240,22 @@ h1, h2 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+#services_image_3:hover {
+    /* background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center; */
+    animation-name: hero-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.98);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 
 .services_info {
