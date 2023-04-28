@@ -338,7 +338,7 @@ h1, h2 {
     'image1 image2'
     'title1 title2'
     'image3 image4'
-    'title3 .';
+    'title3 title4';
     grid-gap: 1em 5em ; 
 }
 
@@ -362,12 +362,13 @@ h1, h2 {
 
 #projects_image4 {
     grid-area: image4;
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
+    /* background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center; */
+    /* background-color: #233539; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 1%;
+    border-radius: 10%;
 }
 
 .projects_title1 {
@@ -382,6 +383,22 @@ h1, h2 {
     grid-area: title3;
 }
 
+.projects_title4 {
+    grid-area: title4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #233539;
+    font-size: 120%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.projects_title4 h4{
+    text-align: right;
+}
+
 #home_projects_link {
     grid-area: link;
     display: flex;
@@ -389,16 +406,74 @@ h1, h2 {
     align-items: flex-end;
 }
 
-/* #projects_layout a {
+/* this is the code to do it similar to the services section link options */
+
+#projects_layout a {
     text-decoration: none;
     color: inherit;
-    font-size: 120%;
-} */
+    /* font-size: 120%; */
+} 
 
-/* #projects_layout a:hover {
+#projects_layout .projects_title4 h4:hover {
     border-bottom: 1px solid #3a3a3a;
     font-style: italic;
+}
+
+/* .home_project_links {
+    height: 145px;
+    width: 100%;
+    border-radius: 10%;
+    border: 2px outset #fff;
 } */
+
+#projects_info a {
+    height: 145px;
+    width: 100%;
+    border-radius: 10%;
+    border: 2px outset #fff;
+    text-decoration: none;
+    color: #fff;
+}
+
+#projects_info {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 145px 145px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'road signage'
+    'devices all';
+    grid-gap: 10px; 
+} 
+
+#projects_info h4 {
+    margin: 50px 0px 50px;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+#road_paint_projects {
+    grid-area: road;
+    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
+}
+
+#signage_projects {
+    grid-area: signage;
+    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
+}
+
+#devices_projects {
+    grid-area: devices;
+    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
+}
+
+#all_projects {
+    grid-area: all;
+    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
+}
 
 
 
