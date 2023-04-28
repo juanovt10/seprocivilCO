@@ -219,7 +219,7 @@ h1, h2 {
 
 @keyframes hero-zoom {
     from{
-        transform: scale(0.95);
+        transform: scale(0.98);
     }
     to{
         transform: scale(1);
@@ -248,18 +248,23 @@ h1, h2 {
 .services_info {
     margin: 0;
     width: 100%;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    /* background-color: black;
-    visibility: hidden; */
+    opacity: 0;
+    /* visibility: hidden; */
+}
 
+.services_info:hover {
+    opacity: 1;
 }
 
 #services_layout h3 {
     margin: 50px 0px 20px;
-    font-size: 300%;
+    font-size: 350%;
     text-align: center;
-    /* opacity: 0; */
+    /* padding: 50px;
+    opacity: 0; */
 }
 
 /* #services_layout h3:hover {
