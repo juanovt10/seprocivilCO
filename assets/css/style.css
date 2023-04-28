@@ -78,7 +78,7 @@ h1, h2 {
 /* hero image*/
 
 #hero-outer {
-    height: 350px;
+    height: 525px;
     width: 100%;
     overflow: hidden;
 
@@ -90,7 +90,7 @@ h1, h2 {
 
 }
 #hero-image {
-    height: 350px;
+    height: 525px;
     width: 100%;
     background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
 }
@@ -230,7 +230,7 @@ h1, h2 {
 }
 
 #services_image_2:hover {
-    /* background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center; */
+    /* background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center; To add darker image*/
     animation-name: hero-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
@@ -247,7 +247,7 @@ h1, h2 {
 }
 
 #services_image_3:hover {
-    /* background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center; */
+    /* background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center; to add darker image*/
     animation-name: hero-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
@@ -269,7 +269,6 @@ h1, h2 {
     display: flex;
     flex-direction: column;
     opacity: 0;
-    /* visibility: hidden; */
 }
 
 .services_info:hover {
@@ -280,24 +279,13 @@ h1, h2 {
     margin: 50px 0px 20px;
     font-size: 350%;
     text-align: center;
-    /* padding: 50px;
-    opacity: 0; */
 }
-
-/* #services_layout h3:hover {
-    opacity: 1;
-} */
 
 #services_layout p {
-    margin: 20px 10px 50px;
+    margin: 20px 50px 50px;
     font-size: 110%;
     text-align: left;
-    /* opacity: 0; */
 }
-
-/* #services_layout p:hover {
-    opacity: 1;
-} */
 
 #services_layout a {
     text-decoration: none;
@@ -309,7 +297,7 @@ h1, h2 {
 /* project section */
 
 #projects {
-    height: 600px; 
+    height: 1000px; 
     width: 100%;
     background-color: #fff;
     color:#233539;
@@ -320,7 +308,7 @@ h1, h2 {
 
 #home_projects_container {
     margin: 5%;
-    height: 450px;
+    height: 850px;
     width: 100%;
     /* background-color: yellow; */
 }
@@ -331,7 +319,7 @@ h1, h2 {
 }
 
 .projects_titles {
-    font-size: 110%;
+    font-size: 120%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,30 +332,42 @@ h1, h2 {
 #projects_layout {
     margin: 0 5%;
     display: grid;
-    grid-template-rows: 300px 40px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 40px 300px 40px;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-    'image1 image2 image3'
-    'title1 title2 title3';
-    grid-gap: 1em 10em ;
+    'image1 image2'
+    'title1 title2'
+    'image3 image4'
+    'title3 .';
+    grid-gap: 1em 5em ; 
 }
 
 #projects_image1 {
     grid-area: image1;
-    background-color: red;
-    border-radius: 50%;
+    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
+    border-radius: 10%;
 }
 
 #projects_image2 {
     grid-area: image2;
-    background-color: blue;
-    border-radius: 50%;
+    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+    border-radius: 10%;
 }
 
 #projects_image3 {
     grid-area: image3;
-    background-color: black;
-    border-radius: 50%;
+    background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
+    border-radius: 10%;
+}
+
+#projects_image4 {
+    grid-area: image4;
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
 }
 
 .projects_title1 {
@@ -382,6 +382,23 @@ h1, h2 {
     grid-area: title3;
 }
 
+#home_projects_link {
+    grid-area: link;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* #projects_layout a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 120%;
+} */
+
+/* #projects_layout a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    font-style: italic;
+} */
 
 
 
@@ -389,7 +406,7 @@ h1, h2 {
 
 #footer_top {
     background-color: #233539;
-    height: 100px;
+    height:75px;
 }
 
 #footer_nav_bar {
@@ -399,7 +416,7 @@ h1, h2 {
 }
 
 #footer_nav_bar {
-    line-height: 100px;
+    line-height: 75px;
 }
 
 #footer_nav_bar li  {
@@ -422,7 +439,7 @@ h1, h2 {
     float: right;
     font-size: 105%;
     text-decoration: none;
-    line-height: 100px;
+    line-height: 75px;
     margin-right: 30px;
 }
 
