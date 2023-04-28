@@ -470,33 +470,42 @@ h1, h2 {
 #footer {
     height: 75px;
     background-color: #41555a;
-    display: flex;
+    border-top: 1px outset grey;
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
     border-top: 1px outset grey;
+    margin: 0 50px; */
 }
 
-#footer ul {
+#footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 0 50px;
+}
+
+#footer_container ul {
     display: flex;
     flex-direction: row;
     line-height: 75px;
-    margin-left: 50px;
     font-size: 110%;
     letter-spacing: 1px;
 }
 
-#footer li {
+#footer_container li {
     list-style-type: none;
     margin-right: 30px;
 }
 
-#footer a {
+#footer_container a {
     text-decoration: none;
     color: #fff;
 }
 
-#footer ul a:hover {
+#footer_container ul a:hover {
     border-bottom: 1px solid #fff;
 }
 
@@ -507,12 +516,6 @@ h1, h2 {
     align-items: center;
     line-height: 75px;
 }
-
-/* #social_media div {
-    width: 100%;
-    height: 75px;
-    margin: 5px;
-} */
 
 #social_media a {
     font-size: 175%;
@@ -526,72 +529,15 @@ h1, h2 {
     color: #233539;
 }
 
-
-
-/* 
-#footer_top {
-    background-color: #233539;
-    height:75px;
-}
-
-#footer_nav_bar {
-    font-size: 110%;
-    letter-spacing: 1px;
-    margin-left: 50px;
-}
-
-#footer_nav_bar {
-    line-height: 75px;
-}
-
-#footer_nav_bar li  {
-    float: left;
-    position: relative;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#footer_nav_bar a {
-    text-decoration: none;
-    color: #fff;
-}
-
-#footer_nav_bar a:hover {
-    border-bottom: 1px solid #fff;
-}
+/* Still a problem with the logo color, issue could be with hte h1,h2 rule palced up top */
 
 #footer_logo {
-    float: right;
-    font-size: 105%;
-    text-decoration: none;
+    height: 75px;
     line-height: 75px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 200%;
+    text-decoration: none;
     margin-right: 30px;
+    font-weight: bold;
 }
-
-#footer_logo h1 {
-    color: #fff;
-}
-
-/* footer bottom styling */
-
-/*
-#footer_bottom {
-    width: 100%;
-    background-color: #41555a;
-    height: 50px;
-}
-
-#social_media {
-    text-align: center;
-    height: 50px;
-}
-
-#social_media  li  {
-    display: inline;
-}
-
-#social_media i {
-    font-size: 125%;
-    margin: 1%;
-    color: #fff;
-} */
