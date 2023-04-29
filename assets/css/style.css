@@ -768,49 +768,50 @@ h1, h2 {
 
 #project1_image {
     height: 200px;
-    background-color: black;
+    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
     width: 100%;
-    border-radius: 10% 10% 1% 1%;
+    border-radius: 10% 10% 0 0;
 }
 
 #project2_image {
     height: 200px;
-    background-color: black;
+    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
     width: 100%;
-    border-radius: 10% 10% 1% 1%;
+    border-radius: 10% 10% 0 0;
 }
 
 #project3_image {
     height: 200px;
-    background-color: black;
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
     width: 100%;
-    border-radius: 10% 10% 1% 1%;
+    border-radius: 10% 10% 0 0;
 }
 
 #project4_image {
     height: 200px;
-    background-color: black;
+    background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
     width: 100%;
-    border-radius: 10% 10% 1% 1%;
+    border-radius: 10% 10% 0 0;
 }
 
 #project5_image {
     height: 200px;
-    background-color: black;
+    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
     width: 100%;
-    border-radius: 10% 10% 1% 1%;
+    border-radius: 10% 10% 0 0;
 }
 
 #project6_image {
     height: 200px;
-    background-color: black;
+    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
     width: 100%;
-    border-radius: 10% 10% 1% 1%;
+    border-radius: 10% 10% 0 0;
 }
 
 .project_grid_titles {
-    background-color: green;
-    font-size: 80%;
+    background-color: #233539;
+    color: #fff;
+    font-size: 70%;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -818,6 +819,8 @@ h1, h2 {
 
 .project_grid_titles h2, h3 {
     line-height: 50px;
+    letter-spacing: 1px;
+    color: #fff;
 }
 
 .project_grid_titles a {
@@ -825,6 +828,9 @@ h1, h2 {
     color: inherit;
 }
 
+.project_grid_titles a:hover {
+    font-style: italic;
+}
 
 #projects_gallery {
     width: 100%;
