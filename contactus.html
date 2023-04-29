@@ -42,25 +42,36 @@
     <section id="contact_background_image">
         <div class="contact_container">
             <form action="#" method="post">
-                name
-                email
-                phone
-                company
-                services
-                Request
-                submit
+                <h1>Get a quote!</h1>
+                <div id="form_contact">
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="fname" id="first_name" required>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="lname" id="last_name" required>
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="pnumber" id="number" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="company">Comapany (optional)</label>
+                    <input type="text" name="comapany" id="company">
+                    <label for="service">Service</label>
+                    <select name="service" id="service" value="service">
+                        <option value="paint">Paint</option>
+                        <option value="signage">Signage</option>
+                        <option value="sevices">Devices</option>
+                        <option value="mixed">Mixed services</option>
+                    </select>
+                    <label for="location">Location</label>
+                    <input name="location" id="location">
+                </div>
+                <label for="quote">Project information</label>
+                <textarea name="quote_info" id="quote" cols="100" rows="10"></textarea>
+                <div id="form_buttons">
+                    <label for="terms_checkbox">I accept the the T&Cs</label>
+                    <input id="terms_checkbox" value="accept_terms" type="checkbox" required/>
+                    <input type="submit" id="submit" value="Send">
+                </div>
             </form>
-            <!-- <div>
-                <form action="#" method="post">
-                    name
-                    email
-                    phone
-                    company
-                    services
-                    Request
-                    submit
-                </form>
-            </div> -->
             <ul>
                 <h3>Seprocivil Colombia SAS</h3>
                 <li>Calle 105a #14-64, Bogota, Colombia</li>

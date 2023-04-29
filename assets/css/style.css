@@ -867,13 +867,61 @@ h1, h2 {
 }
 
 form {
-    background-color: blue;
-    margin: 75px 0px;
+    background-color: rgba(204, 204, 204, 0.5);
+    /* margin-right: 500px; */
+    padding: 25px; 
     width: 60%;
-    height: 300px;
+}
+
+form h1 {
+    margin-bottom: 50px;
+}
+
+#form_contact {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 5px;
+}
+
+label {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    margin: 10px 0;
+    height: 20px;
+}
+
+#quote {
+    height: 150px;
+    resize: none;
+    margin-top: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#form_buttons {
+    height: 50px;
+    display: flex;
+    align-items: baseline;
+}
+
+#form_buttons label {
+    width: 50%;
+}
+
+#terms_checkbox {
+    height: 20px;
+    width: 10%;
+}
+
+#submit {
+    width: 40%;
+    height: 50px;
 }
 
 .contact_container ul {
