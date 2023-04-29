@@ -538,9 +538,6 @@ h1, h2 {
 
 /* SERVICES PAGE STYLYING */
 
-.page_title
-
-
 #services_hero_image {
     height: 525px;
     width: 100%;
@@ -559,7 +556,7 @@ h1, h2 {
     margin: 0 50px;
     height: 500px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -569,10 +566,11 @@ h1, h2 {
     margin: 0 50px;
     height: 500px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row-reverse;
     gap: 30px;
+    color: #fff;
 }
 
 #services_paint_image {
@@ -580,7 +578,7 @@ h1, h2 {
     width: 40%;
     margin: 0;
     border-radius: 1%;
-    background-color: green;
+    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
 }
 
 .services_text {
@@ -599,7 +597,7 @@ h1, h2 {
     width: 100%;
     margin: 0 0 50px;
     font-size: 150%;
-    border-bottom: #233539 solid 2px;
+    border-bottom: #fff solid 2px;
     text-align: right;
 }
 
@@ -639,7 +637,7 @@ h1, h2 {
 }
 
 #signage_service {
-    background-color: blue;
+    background-color: #233539;
 }
 
 #devices_service {
@@ -651,12 +649,12 @@ h1, h2 {
     width: 40%;
     margin: 0;
     border-radius: 1%;
-    background-color: black;
+    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
 }
 #services_devices_image {
     height: 500px;
     width: 40%;
     margin: 0;
     border-radius: 1%;
-    background-color: blue;
+    background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
 }
