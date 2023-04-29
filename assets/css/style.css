@@ -31,6 +31,7 @@ h1, h2 {
     letter-spacing: 2px;
     color: #252525;
 }
+
 #logo {
     float: left;
     font-size: 120%;
@@ -99,6 +100,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     margin: 0;
+    color: #233539;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -712,7 +714,7 @@ h1, h2 {
 }
 
 #projects_grid {
-    margin: 25px 50px 0;
+    margin: 25px 75px 0;
     /* background-color: black; */
     display: grid;
     grid-template-columns: 3;
@@ -819,6 +821,7 @@ h1, h2 {
 
 .project_grid_titles h2, h3 {
     line-height: 50px;
+    margin: 0 20px;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -835,5 +838,53 @@ h1, h2 {
 #projects_gallery {
     width: 100%;
     height: 600px;
+    background-color: #233539;
+}
+
+/* Contact us styling */
+
+#contact_background_image {
+    height: 853px;
+    width: 100%;
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+
+}
+
+.contact_container {
+    margin: 75px 75px 0;
+    height: 650px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em;
+}
+
+form {
     background-color: blue;
+    margin: 75px 0px;
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contact_container ul {
+    width: 40%;
+    list-style-type: none;
+}
+
+.contact_container ul h3 {
+    margin: 0 0 75px;
+}
+
+.contact_container li {
+    margin: 10px 0;
 }
