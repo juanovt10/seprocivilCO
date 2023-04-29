@@ -691,11 +691,140 @@ h1, h2 {
     background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
 }
 
-#projects_grid {
+#projects_display {
     width: 100%;
     height: 800px;
-    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+#projects_display h1 {
+    font-size: 200%;
+    height: 50px;
+    line-height: 50px;
+}
+
+#projects_display_container {
+    margin: 0 75px;
+    width: 100%;
+    height: 650px;
+}
+
+#projects_grid {
+    margin: 25px 50px 0;
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    grid-template-areas: 
+    'project1 project2 project3'
+    'project4 project5 project6';
+    row-gap: 50px;
+    column-gap: 2em;
+}
+
+/* #projects_layout {
+    margin: 0 5%;
+    display: grid;
+    grid-template-rows: 300px 40px 300px 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'image1 image2'
+    'title1 title2'
+    'image3 image4'
+    'title3 title4';
+    grid-gap: 1em 5em ; 
+} */
+
+.project_container1 {
+    grid-area: project1;
+}
+
+.project_container2 {
+    grid-area: project2;
+}
+
+.project_container3 {
+    grid-area: project3;
+}
+
+.project_container4 {
+    grid-area: project4;
+}
+
+.project_container5 {
+    grid-area: project5;
+}
+
+.project_container6 {
+    grid-area: project6;
+}
+
+.project_container {
+    height: 250px;
+    width: 100%;
+}
+
+#project1_image {
+    height: 200px;
+    background-color: black;
+    width: 100%;
+    border-radius: 10% 10% 1% 1%;
+}
+
+#project2_image {
+    height: 200px;
+    background-color: black;
+    width: 100%;
+    border-radius: 10% 10% 1% 1%;
+}
+
+#project3_image {
+    height: 200px;
+    background-color: black;
+    width: 100%;
+    border-radius: 10% 10% 1% 1%;
+}
+
+#project4_image {
+    height: 200px;
+    background-color: black;
+    width: 100%;
+    border-radius: 10% 10% 1% 1%;
+}
+
+#project5_image {
+    height: 200px;
+    background-color: black;
+    width: 100%;
+    border-radius: 10% 10% 1% 1%;
+}
+
+#project6_image {
+    height: 200px;
+    background-color: black;
+    width: 100%;
+    border-radius: 10% 10% 1% 1%;
+}
+
+.project_grid_titles {
+    background-color: green;
+    font-size: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_grid_titles h2, h3 {
+    line-height: 50px;
+}
+
+.project_grid_titles a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 #projects_gallery {
     width: 100%;
