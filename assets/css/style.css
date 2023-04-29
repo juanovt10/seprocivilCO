@@ -545,7 +545,7 @@ h1, h2 {
 }
 
 #signage_service, #devices_service, #paint_service {
-    height: 600px;
+    height: 650px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -553,8 +553,7 @@ h1, h2 {
 }
 
 .services_container {
-    margin: 0 50px;
-    height: 500px;
+    margin: 75px;
     width: 100%;
     /* background-color: red; */
     display: flex;
@@ -563,8 +562,8 @@ h1, h2 {
 }
 
 .services_container_inverted {
-    margin: 0 50px;
-    height: 500px;
+    margin: 75px;
+    height: 450px;
     width: 100%;
     /* background-color: red; */
     display: flex;
@@ -574,7 +573,7 @@ h1, h2 {
 }
 
 #services_paint_image {
-    height: 500px;
+    height: 450px;
     width: 40%;
     margin: 0;
     border-radius: 1%;
@@ -631,28 +630,28 @@ h1, h2 {
 .services_content li {
     margin: 20px 0;
 }
-
+/* 
 #paint_service {
-    /* background-color: yellow; */
-}
+    background-color: yellow;
+} */
 
 #signage_service {
     background-color: #233539;
 }
 
-#devices_service {
-    /* background-color: red; */
-}
+/* #devices_service {
+    /* background-color: red; 
+} */
 
 #services_signage_image {
-    height: 500px;
+    height: 450px;
     width: 40%;
     margin: 0;
     border-radius: 1%;
     background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
 }
 #services_devices_image {
-    height: 500px;
+    height: 450px;
     width: 40%;
     margin: 0;
     border-radius: 1%;
