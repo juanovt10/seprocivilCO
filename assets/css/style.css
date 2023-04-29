@@ -23,8 +23,6 @@ body {
     z-index: 3;
     border-bottom: 1px outset grey;
     opacity: 0.95;
-    /* filter: blur(8px);  to see if I can make it work 
-    -webkit-filter: blur(8px); */
 }
 
 h1, h2 {
@@ -310,7 +308,6 @@ h1, h2 {
     margin: 5%;
     height: 850px;
     width: 100%;
-    /* background-color: yellow; */
 }
 
 #projects h3 {
@@ -471,12 +468,6 @@ h1, h2 {
     height: 75px;
     background-color: #41555a;
     border-top: 1px outset grey;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-    border-top: 1px outset grey;
-    margin: 0 50px; */
 }
 
 #footer_container {
@@ -540,4 +531,91 @@ h1, h2 {
     text-decoration: none;
     margin-right: 30px;
     font-weight: bold;
+}
+
+/* ABOUT US PAGE STYLING */
+
+
+/* SERVICES PAGE STYLYING */
+
+#services_hero_image {
+    height: 525px;
+    width: 100%;
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#signage_service, #devices_service, #paint_service {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.services_container {
+    margin: 0 50px;
+    height: 500px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+
+#services_paint_image {
+    height: 500px;
+    width: 40%;
+    margin: 0;
+    /* padding: 0; */
+    border-radius: 1%;
+    background-color: green;
+}
+
+.services_text {
+    width: 60%;
+    margin: 0;
+}
+
+.services_title {
+    width: 100%;
+    margin: 0 0 50px;
+    font-size: 150%;
+    border-bottom: #233539 solid 2px;
+}
+
+.services_content {
+    display: flex;
+}
+
+.services_content div {
+    width: 70%;
+}
+
+.services_content ul {
+    width: 30%;
+    list-style-type: none;
+}
+
+.services_content h2 {
+    margin-bottom: 30px;
+}
+
+.services_content p {
+    margin-bottom: 20px;
+}
+
+.services_content li {
+    margin: 20px 0;
+}
+
+#paint_service {
+    /* background-color: yellow; */
+}
+
+#signage_service {
+    background-color: blue;
+}
+
+#devices_service {
+    background-color: red;
 }
