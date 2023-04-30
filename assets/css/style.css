@@ -12,50 +12,126 @@ body {
     color: #3a3a3a;
 }
 
+h1 {
+    font-family: Roboto, sans-serif;
+}
+
 /* header */
 
 #header {
     height: 75px;
     width: 100%;
-    margin: 0;
     background-color: #fff;
     position: fixed;
     z-index: 1000;
     border-bottom: 1px outset grey;
     opacity: 0.95;
     display: flex;
-}
-
-h1, h2 {
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .5s ease;
 }
 
 #logo {
-    /* float: left; */
+    display: flex;
+    align-items: center;
     font-size: 120%;
     text-decoration: none;
     margin-left: 30px;
     font-weight: bold;
 }
 
-#logo, #navigation_bar {
-    line-height: 75px;
+#logo h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #233539;
 }
 
 #navigation_bar {
-    font-size: 110%;
-    letter-spacing: 1px;
-    font-weight: bold;
-    height: 75px;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row-reverse;
+    list-style: none;
+    margin-right: 30px;
 }
 
-#navigation_bar li {
+#navigation_bar a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 120%;
+    font-weight: 700;
+    padding: 5px 0;
+    margin: 0 15px;
+    transition: all .5s ease;
+    flex-shrink: 1;
+}
+
+#navigation_bar a:hover {
+    color: #800000;
+    /* border-bottom: 1px solid #3a3a3a; */
+
+}
+
+#navigation_bar a.active {
+    color: #800000;
+    /* border-bottom: 1px #233539 solid; */
+}
+
+#language_icon {
+    text-decoration: none;
+    color: inherit;
+    font-size: 105%;
+    font-weight: 500;
+    padding: 0;
+    margin-right: 30px;
+    margin-left: 10px;
+    transition: all .5s ease;
+    text-align: right;
+}
+
+#language_icon:hover {
+    color: #800000;
+}
+
+#menu_button {
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+    transition: all .5s ease;
+}
+
+/* Header responsive design */
+
+@media (max-width: 1180px) {
+    #menu_button {
+        display: block;
+        margin-right: 30px;
+    }
+    #navigation_bar {
+        position: absolute;
+        top: 100%;
+        right: -100%; /* this part makes the drop down menu invisible */
+        width: 270px;
+        margin-right: 0;
+        background-color: rebeccapurple;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 1px;
+        transition: all .5s ease;
+    }
+    #navigation_bar a {
+        display: block;
+        text-align: right;
+        margin: 12px 0;
+        padding: 0 25px;
+        transition: all .5s ease;
+    }
+    #navigation_bar.open {
+        right: 2%;
+    }
+
+}
+
+/* #navigation_bar li {
     list-style-type: none;
     margin-right: 30px;
 }
@@ -75,11 +151,55 @@ h1, h2 {
 
 #menu_button {
     /* display: flex; */
-    /* display: none; */
-    visibility: hidden;
+    /* display: none;
+    cursor: pointer;
     align-items: center;
     padding: 1%;
+} */
+
+/* @media (max-width: 1290px) {
+    header {
+        padding: 1px 1%;
+        transition: .2s;
+    }
+    #navigation_bar a {
+        padding: 1% 0;
+        margin: 0 1%;
+    }
 }
+
+@media (max-width: 1090px) {
+    #menu_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+    }
+    #navigation_bar {
+        order: 3;
+        position: absolute;
+        top: 100%;
+        right: 2%;
+        width: 200px; 
+        height: 300px;
+        background-color: red;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: baseline;
+        transition: all .5s ease;
+    }
+    #navigation_bar li {
+        height: 50px;
+        padding-top: 0;
+    }
+    #navigation_bar a {
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        transition: all .50s ease;
+    }
+}   */
 
 /* hero image*/
 
