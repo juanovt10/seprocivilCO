@@ -61,7 +61,6 @@ h1 {
     padding: 5px 0;
     margin: 0 15px;
     transition: all .5s ease;
-    flex-shrink: 1;
 }
 
 #navigation_bar li:hover {
@@ -148,10 +147,6 @@ h1 {
     #navigation_bar.open {
         right: 0;
     }
-
-
-    
-
 }
 
 /* hero image*/
@@ -173,8 +168,6 @@ h1 {
     width: 100%;
     background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
 }
-
-
 
 /* about us section */ 
 
@@ -578,10 +571,16 @@ h1 {
 #footer_container a {
     text-decoration: none;
     color: #fff;
+    transition: all .5s ease;
+    color: inherit;
+    font-size: 105%;
+    /* font-weight: 100; */
+    padding: 5px 0;
+    margin: 0 15px;
 }
 
 #footer_container ul a:hover {
-    border-bottom: 1px solid #fff;
+    color: aqua; /* REMEMBER TO CHANGE THE COLOR */
 }
 
 #social_media {
@@ -605,7 +604,6 @@ h1 {
 }
 
 /* Still a problem with the logo color, issue could be with hte h1,h2 rule palced up top */
-
 #footer_logo {
     height: 75px;
     line-height: 75px;
@@ -615,6 +613,30 @@ h1 {
     text-decoration: none;
     margin-right: 30px;
     font-weight: bold;
+}
+
+/* Responsive design for footer */
+
+@media (max-width: 1180px) {
+    #footer_container ul {
+        display: none;
+    }
+
+    #social_media a {
+        margin: 0;
+    }
+}
+
+@media (max-width: 740px) {
+    #footer_container .logo {
+        display: none;
+    }
+
+    #footer_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* ABOUT US PAGE STYLING */
