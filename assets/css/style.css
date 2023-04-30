@@ -12,11 +12,11 @@ body {
     color: #3a3a3a;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: Roboto, sans-serif;
 }
 
-/* header */
+/* HEADER START */
 
 #header {
     height: 75px;
@@ -141,7 +141,6 @@ h1 {
         color: white;
         margin: 0;
         padding: 12px 25px;
-        /* padding: 12px 0; */
     }
 
     #navigation_bar.open {
@@ -149,10 +148,12 @@ h1 {
     }
 }
 
-/* hero image*/
+/* HEADER END */
+
+/* HOME HERO IMAGE START*/
 
 #hero-outer {
-    height: 525px;
+    height: 450px;
     width: 100%;
     /* background-color: #233539; */
     overflow: hidden;
@@ -160,7 +161,7 @@ h1 {
 }
 
 #hero-image {
-    height: 525px;
+    height: 450px;
     width: 100%;
     background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
     animation-name: home_hero_image_zoom;
@@ -177,7 +178,9 @@ h1 {
     }
 }
 
-/* about us section */ 
+/* HOME HERO IMAGE END*/
+
+/* HOME-ABOUT US  */ 
 
 #home_about_us {
     height: 600px;
@@ -190,8 +193,9 @@ h1 {
 }
 
 #about_us_container {
-    margin: 5%;
+    margin: 75px;
     width: 100%;
+    height: 450px;
     display: flex;
     flex-direction: row;
 }
@@ -200,11 +204,13 @@ h1 {
     width: 100%;
     display: flex;
     flex-direction: column;
+    transition: all 0.5s ease;
 }
 
-#about_us_text h3 {
-    font-size: 300%;
+#about_us_text h2 {
+    font-size: 200%;
     margin-bottom: 50px;
+    letter-spacing: 1px;
 }
 
 #about_us_text p {
@@ -216,20 +222,40 @@ h1 {
 #about_us_text a {
     text-decoration: none;
     color: inherit;
+    transition: all 0.1s ease;
 }
 
 #about_us_text a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    color: #800000;
     font-style: italic;
 }
 
 #about_us_image {
-    height: 450px;
-    width: 80%; 
+    height: 400px;
+    width: 100%; 
     padding: 0;
     background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
     border-radius: 1%;
 }
+
+@media (max-width: 1180px) {
+    #home_about_us {
+        height: 800px;
+    }
+
+    #about_us_text a {
+        margin-bottom: 20px;
+    }
+    #about_us_container {
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/* HOME-ABOUT US END */
 
 /* services section */
 
