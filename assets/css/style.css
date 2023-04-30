@@ -208,9 +208,10 @@ h1, h2, h3 {
 }
 
 #about_us_text h2 {
-    font-size: 200%;
+    font-size: 250%;
     margin-bottom: 50px;
-    letter-spacing: 1px;
+    margin-right: 20px;
+    letter-spacing: 2px;
 }
 
 #about_us_text p {
@@ -257,7 +258,7 @@ h1, h2, h3 {
 
 /* HOME-ABOUT US END */
 
-/* services section */
+/* HOME-SERVCIES START */
 
 #home_services {
     height: 600px;
@@ -271,15 +272,15 @@ h1, h2, h3 {
 }
 
 #services_container {
-    margin: 5%;
+    margin: 0 75px;
     height: 450px;
     width: 100%;
 }
 
-#services_title {
-    font-size: 300%;
-    margin-bottom: 50px;
-    margin-top: 0;
+#services_title h2{
+    margin: 0 0 50px;
+    font-size: 250%;
+    letter-spacing: 2px;
     
 }
 
@@ -401,6 +402,34 @@ h1, h2, h3 {
     color: inherit;
 }
 
+@media (max-width: 1180px) {
+    #home_services {
+        height: 800px;
+    }
+    #services_container {
+        height: 650px;
+    }
+    #services_layout {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .services_info { 
+        height: 150px;
+    }
+    #services_layout h3 {
+        margin: 20px 0px 0;
+        font-size: 250%;
+        text-align: center;
+    }
+    #services_layout p {
+        margin: 20px 50px 0;
+        font-size: 110%;
+        text-align: left;
+    }
+}
+
+/* HOME-SERVICES END */
 
 
 /* project section */
