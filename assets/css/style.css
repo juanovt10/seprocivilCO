@@ -154,19 +154,27 @@ h1 {
 #hero-outer {
     height: 525px;
     width: 100%;
+    /* background-color: #233539; */
     overflow: hidden;
-
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
-    color: #fff;
-
-}
 #hero-image {
     height: 525px;
     width: 100%;
     background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
+    animation-name: home_hero_image_zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes home_hero_image_zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 /* about us section */ 
@@ -539,7 +547,7 @@ h1 {
 
 
 
-/*  footer styling */
+/*  FOOTER STYLING START*/
 
 #footer {
     height: 75px;
@@ -603,7 +611,6 @@ h1 {
     color: #233539;
 }
 
-/* Still a problem with the logo color, issue could be with hte h1,h2 rule palced up top */
 #footer_logo {
     height: 75px;
     line-height: 75px;
@@ -638,6 +645,8 @@ h1 {
         align-items: center;
     }
 }
+
+/*  FOOTER STYLING END*/
 
 /* ABOUT US PAGE STYLING */
 
