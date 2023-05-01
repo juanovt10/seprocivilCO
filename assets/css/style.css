@@ -88,28 +88,23 @@ h3 {
     /* border-bottom: 1px #233539 solid; */
 }
 
-#language_icon {
-    text-decoration: none;
-    color: inherit;
-    font-size: 105%;
-    font-weight: 500;
-    padding: 0;
-    margin-right: 30px;
-    margin-left: 10px;
+/* #language_icon {
+    font-size: 75%;
     transition: all .5s ease;
-    text-align: right;
-}
-
-#language_icon:hover {
-    color: #800000;
-}
+} */
 
 .menu_button {
     cursor: pointer;
     z-index: 1001;
+    font-size: 200%;
     display: none;
     transition: all .5s ease;
 }
+
+/* .menu_button i {
+    height: 75px;
+    width: 75px;
+} */
 
 /* Header responsive design */
 
