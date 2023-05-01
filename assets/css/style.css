@@ -16,6 +16,20 @@ h1, h2, h3 {
     font-family: Roboto, sans-serif;
 }
 
+h2 {
+    font-size: 250%;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+/* h3 {
+    font-size: 200%;
+} */
+
 /* HEADER START */
 
 #header {
@@ -165,7 +179,7 @@ h1, h2, h3 {
     width: 100%;
     background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
     animation-name: home_hero_image_zoom;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
@@ -205,13 +219,6 @@ h1, h2, h3 {
     display: flex;
     flex-direction: column;
     transition: all 0.5s ease;
-}
-
-#about_us_text h2 {
-    font-size: 250%;
-    margin-bottom: 50px;
-    margin-right: 20px;
-    letter-spacing: 2px;
 }
 
 #about_us_text p {
@@ -261,9 +268,8 @@ h1, h2, h3 {
 /* HOME-SERVCIES START */
 
 #home_services {
-    height: 600px;
+    /* height: 600px; */
     width: 100%;
-    margin: 0;
     background-color: #233539;
     color: #fff;
     display: flex;
@@ -272,55 +278,43 @@ h1, h2, h3 {
 }
 
 #services_container {
-    margin: 0 75px;
-    height: 450px;
+    margin: 100px 75px;
+    /* height: 450px; */
     width: 100%;
 }
 
-#services_title h2{
-    margin: 0 0 50px;
-    font-size: 250%;
-    letter-spacing: 2px;
-    
-}
-
-.home_services_titles {
-    font-size: 110%;
+#services_layout {
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
-#services_layout {
-    display: grid;
-    grid-template-rows: 40px 300px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    'title1 title2 title3'
-    'image1 image2 image3';
-    grid-gap: 0 1em ;
+#services_layout h3 {
+    font-size: 150%;
 }
 
-.services_title_1 {
-    grid-area: title1;
-}
 
-.services_title_2 {
-    grid-area: title2;
-}
-
-.services_title_3 {
-    grid-area: title3;
-}
-
-#services_image_1 {
-    grid-area: image1;
-    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+.services_image {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     border-radius: 1%;
 }
+
+#services_image_1 {
+    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+}
+
+#services_image_2 {
+    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+}
+
+#services_image_3 {
+    background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
+}
+
+/* -- hover effect -- */
 
 #services_image_1:hover {
     background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
@@ -329,31 +323,11 @@ h1, h2, h3 {
     animation-fill-mode: backwards;
 }
 
-#services_image_2 {
-    grid-area: image2;
-    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 1%;
-}
-
 #services_image_2:hover {
     /* background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center; To add darker image*/
     animation-name: hero-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
-}
-
-#services_image_3 {
-    grid-area: image3;
-    background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 1%;
 }
 
 #services_image_3:hover {
@@ -372,12 +346,19 @@ h1, h2, h3 {
     }
 }
 
+
+/* -- image container stying */
+
+
+
 .services_info {
-    margin: 0;
+    padding: 5px;
     width: 100%;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     opacity: 0;
 }
 
@@ -385,14 +366,18 @@ h1, h2, h3 {
     opacity: 1;
 }
 
-#services_layout h3 {
-    margin: 50px 0px 20px;
-    font-size: 350%;
-    text-align: center;
+.services_info i {
+    font-size: 200%;
+    
+    /* TO EDIT WITH PARRAGRAPH CONTENT
+    margin: 0; 
+    padding: 0; */
 }
 
 #services_layout p {
-    margin: 20px 50px 50px;
+    /* TO EDIT WITH PARRAGRAPH CONTENT
+
+    margin: 10px 50px 10px; */
     font-size: 110%;
     text-align: left;
 }
@@ -402,7 +387,9 @@ h1, h2, h3 {
     color: inherit;
 }
 
-@media (max-width: 1180px) {
+
+
+/* @media (max-width: 1180px) {
     #home_services {
         height: 800px;
     }
@@ -417,25 +404,25 @@ h1, h2, h3 {
     .services_info { 
         height: 150px;
     }
-    #services_layout h3 {
+    /* #services_layout h3 {
         margin: 20px 0px 0;
         font-size: 250%;
         text-align: center;
-    }
-    #services_layout p {
+    } */
+    /* #services_layout p {
         margin: 20px 50px 0;
         font-size: 110%;
         text-align: left;
     }
-}
+}  */
 
 /* HOME-SERVICES END */
 
 
-/* project section */
+/* HOME-PROJECTS SECTION */
 
 #projects {
-    height: 1000px; 
+    height: 600px; 
     width: 100%;
     background-color: #fff;
     color:#233539;
@@ -445,14 +432,15 @@ h1, h2, h3 {
 }
 
 #home_projects_container {
-    margin: 5%;
-    height: 850px;
+    margin: 100px 75px;
+    /* height: 850px; */
     width: 100%;
 }
 
-#projects h3 {
-    font-size: 300%;
-    margin-bottom: 50px;
+#projects h2 {
+    margin: 50px;
+    font-size: 250%;
+    letter-spacing: 1px;
 }
 
 .projects_titles {
@@ -466,7 +454,7 @@ h1, h2, h3 {
     width: 300px;
 } */
 
-#projects_layout {
+/* #projects_layout {
     margin: 0 5%;
     display: grid;
     grid-template-rows: 300px 40px 300px 40px;
@@ -477,7 +465,7 @@ h1, h2, h3 {
     'image3 image4'
     'title3 title4';
     grid-gap: 1em 5em ; 
-}
+} */
 
 #projects_image1 {
     grid-area: image1;
