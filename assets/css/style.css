@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Roboto:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Roboto:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -108,7 +108,7 @@ h3 {
 
 /* Header responsive design */
 
-@media (max-width: 1180px) {
+@media (max-width: 992px) {
     #open_button {
         display: block;
         margin-right: 30px;
@@ -192,7 +192,7 @@ h3 {
 /* HOME-ABOUT US  */ 
 
 #home_about_us {
-    height: 600px;
+    /* height: 600px; */
     width: 100%;
     margin: 0;
     color: #233539;
@@ -204,7 +204,7 @@ h3 {
 #about_us_container {
     margin: 75px;
     width: 100%;
-    height: 450px;
+    /* height: 450px; */
     display: flex;
     flex-direction: row;
 }
@@ -234,7 +234,7 @@ h3 {
 }
 
 #about_us_image {
-    height: 400px;
+    /* height: 400px; */
     width: 100%; 
     padding: 0;
     background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
@@ -486,7 +486,6 @@ h3 {
 /*  FOOTER STYLING START*/
 
 #footer {
-    height: 75px;
     background-color: #41555a;
     border-top: 1px outset grey;
 }
@@ -496,36 +495,37 @@ h3 {
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    margin: 0 50px;
+    margin: 0 75px;
 }
 
 #footer_container ul {
     display: flex;
     flex-direction: row;
-    line-height: 75px;
     font-size: 110%;
     letter-spacing: 1px;
-}
-
-#footer_container li {
     list-style-type: none;
-    margin-right: 30px;
+    line-height: 75px;
+    
+    /* width: 33%; */
 }
 
 #footer_container a {
     text-decoration: none;
-    color: #fff;
-    transition: all .5s ease;
     color: inherit;
-    font-size: 105%;
-    /* font-weight: 100; */
-    padding: 5px 0;
+    font-size: 120%;
+    font-weight: 500;
+    /* padding: 5px 0; */
     margin: 0 15px;
+    transition: all .5s ease;
+    /* width: 33%; */
 }
 
-#footer_container ul a:hover {
+#footer_container a:hover {
     color: aqua; /* REMEMBER TO CHANGE THE COLOR */
+    /* background-color: #fff;
+    color: #233539; */
 }
+
 
 #social_media {
     display: flex;
@@ -533,13 +533,14 @@ h3 {
     justify-content: center;
     align-items: center;
     line-height: 75px;
+    /* width: 33%; */
 }
 
 #social_media a {
     font-size: 175%;
     width: 100%;
-    height: 75px;
     padding: 0 25px;
+    margin: 0;
 }
 
 #social_media a:hover {
@@ -547,9 +548,7 @@ h3 {
     color: #233539;
 }
 
-#footer_logo {
-    height: 75px;
-    line-height: 75px;
+#footer_logo h1 {
     color: #fff;
     letter-spacing: 2px;
     font-size: 200%;
