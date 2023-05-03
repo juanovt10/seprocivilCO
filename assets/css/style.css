@@ -33,7 +33,7 @@ h3 {
 /* HEADER START */
 
 #header {
-    height: 75px;
+    /* height: 75px; */
     width: 100%;
     background-color: #fff;
     position: fixed;
@@ -53,6 +53,7 @@ h3 {
     text-decoration: none;
     margin-left: 30px;
     font-weight: bold;
+    padding: 14px 0;
 }
 
 #logo h1 {
@@ -64,16 +65,19 @@ h3 {
 #navigation_bar {
     display: flex;
     list-style: none;
-    margin-right: 30px;
+    /* margin-right: 30px; */
+    padding: 14px 0;
+    text-align: left;
 }
 
 #navigation_bar a {
     text-decoration: none;
+    /* text-align: left; */
     color: inherit;
     font-size: 120%;
     font-weight: 700;
     padding: 5px 0;
-    margin: 0 15px;
+    margin-right: 30px;
     transition: all .5s ease;
 }
 
@@ -108,7 +112,21 @@ h3 {
 
 /* Header responsive design */
 
-@media (max-width: 992px) {
+
+/* Media query for when the nav bar gets too close to the logo div */
+
+@media (max-width: 900px) {
+    #navigation_bar {
+        margin-right: 25px;
+    }
+    #navigation_bar a {
+    margin: 0 5px;
+    }
+}
+
+/* Media query to change to a drop down menu */
+
+@media (max-width: 768px) {
     #open_button {
         display: block;
         margin-right: 30px;
@@ -121,7 +139,7 @@ h3 {
     #navigation_bar {
         position: absolute;
         top: 100%;
-        right: -100%; /* this part makes the drop down menu invisible */
+        right: -100%; /*  this part makes the drop down menu invisible */
         width: 200px;
         margin-right: 0;
         background-color: white;
@@ -155,7 +173,7 @@ h3 {
     #navigation_bar.open {
         right: 0;
     }
-}
+} 
 
 /* HEADER END */
 
@@ -241,7 +259,7 @@ h3 {
     border-radius: 1%;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 992px) {
     #home_about_us {
         height: 800px;
     }
@@ -495,7 +513,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    margin: 0 75px;
+    margin: 0 30px;
 }
 
 #footer_container ul {
@@ -559,7 +577,7 @@ h3 {
 
 /* Responsive design for footer */
 
-@media (max-width: 1180px) {
+@media (max-width: 979px) {
     #footer_container ul {
         display: none;
     }
@@ -569,7 +587,7 @@ h3 {
     }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 570px) {
     #footer_container .logo {
         display: none;
     }
