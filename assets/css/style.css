@@ -253,7 +253,7 @@ h3 {
 }
 
 #about_us_image {
-    height: 400px;
+    /* height: 400px; */
     width: 100%; 
     padding: 0;
     background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
@@ -280,6 +280,13 @@ h3 {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    #about_us_image {
+        height: 400px;
+        width: 100%; 
+        padding: 0;
+        background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
+        border-radius: 1%;
     }
 }
 
@@ -326,6 +333,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    gap: 20px;
 }
 
 
@@ -352,7 +360,7 @@ h3 {
 }
 
 #services_image_3 {
-    background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
+    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
 }
 
 /* -- hover effect -- */
@@ -391,7 +399,8 @@ h3 {
 /* -- image container stying */
 
 .services_info {
-    padding: 5px;
+    /* margin: 30px 0; */
+    padding: 30px 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -405,19 +414,15 @@ h3 {
 }
 
 .services_info i {
-    font-size: 200%;
-    
-    /* TO EDIT WITH PARRAGRAPH CONTENT
-    margin: 0; 
-    padding: 0; */
+    font-size: 250%;
 }
 
 #services_layout p {
-    /* TO EDIT WITH PARRAGRAPH CONTENT
-
-    margin: 10px 50px 10px; */
+    padding: 20px 25px 0px;
+    /* margin: 20px 25px 0px; */
     font-size: 110%;
-    text-align: left;
+    text-align: justify;
+    
 }
 
 #services_layout a {
@@ -425,7 +430,7 @@ h3 {
     color: inherit;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 979px) {
     #services_layout {
         display: flex;
         flex-direction: column;
@@ -659,7 +664,7 @@ h3 {
 }
 
 #signage_service, #devices_service, #paint_service {
-    height: 650px;
+    /* height: 650px; */
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -669,7 +674,6 @@ h3 {
 .services_container {
     margin: 75px;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -677,9 +681,8 @@ h3 {
 
 .services_container_inverted {
     margin: 75px;
-    height: 450px;
+    /* height: 450px; */
     width: 100%;
-    /* background-color: red; */
     display: flex;
     flex-direction: row-reverse;
     gap: 30px;
@@ -701,7 +704,7 @@ h3 {
 
 .services_title {
     width: 100%;
-    margin: 0 0 50px;
+    margin: 0 0 20px;
     font-size: 150%;
     border-bottom: #233539 solid 2px;
 }
@@ -731,19 +734,31 @@ h3 {
 .services_content ul {
     width: 30%;
     list-style-type: none;
-}
-
-.services_content h3 {
-    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .services_content p {
     margin-bottom: 20px;
 }
 
+.highlight_text {
+    color: #233539;
+    font-size: 120%;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.services_quote_button {
+    text-decoration: none;
+}
+
 .services_quote_button div {
     height: 50px;
     width: 20%;
+    margin-top: 50px;
     background-color: #233539;
     display: flex;
     justify-content: center;
@@ -752,8 +767,7 @@ h3 {
     border: none;
     color: #fff;
     border-radius: 40px 20px;
-    border: outset gray 2px;
-    /* margin: 100px;  To be define dependin on the size of the parragraphs*/
+    border: outset gray 2px
 }
 
 .button_inverted div{
@@ -768,6 +782,9 @@ h3 {
 
 .services_content li {
     margin: 20px 0;
+    font-style: italic;
+    font-size: 110%;
+    font-weight: 500;
 }
 /* 
 #paint_service {
@@ -777,10 +794,6 @@ h3 {
 #signage_service {
     background-color: #233539;
 }
-
-/* #devices_service {
-    /* background-color: red; 
-} */
 
 #services_signage_image {
     height: 450px;
