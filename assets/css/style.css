@@ -690,11 +690,12 @@ h3 {
 }
 
 #services_paint_image {
-    height: 450px;
+    /* height: 450px; */
     width: 40%;
     margin: 0;
     border-radius: 1%;
     background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+    transition: all 0.1s ease;
 }
 
 .services_text {
@@ -720,6 +721,7 @@ h3 {
 .services_content {
     display: flex;
     gap: 30px;
+    transition: all 0.1s ease;
 }
 
 .inverted {
@@ -728,11 +730,11 @@ h3 {
 }
 
 .services_content div {
-    width: 70%;
+    width: 80%;
 }
 
 .services_content ul {
-    width: 30%;
+    width: 20%;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -740,14 +742,13 @@ h3 {
     align-items: center;
 }
 
-.services_content p {
-    margin-bottom: 20px;
-}
-
 .highlight_text {
-    color: #233539;
     font-size: 120%;
     font-weight: 600;
+    text-align: justify;
+}
+.services_content p {
+    margin-bottom: 20px;
     text-align: justify;
 }
 
@@ -757,7 +758,7 @@ h3 {
 
 .services_quote_button div {
     height: 50px;
-    width: 20%;
+    width: 33%;
     margin-top: 50px;
     background-color: #233539;
     display: flex;
@@ -767,12 +768,14 @@ h3 {
     border: none;
     color: #fff;
     border-radius: 40px 20px;
-    border: outset gray 2px
+    border: outset gray 2px;
+    transition: all 0.1s ease;
 }
 
 .button_inverted div{
     color: #233539;
     background-color: #fff;
+    float: right;
 }
 
 .services_quote_button div:hover {
@@ -786,28 +789,110 @@ h3 {
     font-size: 110%;
     font-weight: 500;
 }
-/* 
-#paint_service {
-    background-color: yellow;
-} */
+
 
 #signage_service {
     background-color: #233539;
 }
 
 #services_signage_image {
-    height: 450px;
     width: 40%;
     margin: 0;
     border-radius: 1%;
     background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
+    transition: all 0.1s ease;
 }
 #services_devices_image {
-    height: 450px;
     width: 40%;
     margin: 0;
     border-radius: 1%;
     background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
+    transition: all 0.1s ease;
+}
+
+@media (max-width: 1200px) {
+    .services_text {
+        width: 50%;
+        margin: 0;
+    }
+    #services_devices_image {
+        width: 50%;
+    }
+    #services_signage_image {
+        width: 50%;
+    }
+    #services_paint_image {
+        width: 50%;
+    }
+}
+
+@media (max-width: 979px) {
+
+    .services_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services_container_inverted {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services_text {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .services_text ul {
+        display: none;
+    }
+
+    .services_content div {
+        width: 100%;
+    }
+
+    .services_quote_button div {
+        width: 33%;
+    }
+    
+    #services_devices_image {
+        width: 100%;
+        height: 400px;
+    }
+    #services_signage_image {
+        width: 100%;
+        height: 400px;
+    }
+    #services_paint_image {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 650px) {
+    
+    .services_text p {
+        font-size: 105%;
+        margin: 20px 0;
+    }
+
+    .services_title {
+        margin-bottom: 10px;
+    }
+
+    .services_title_inverted {
+        margin-bottom: 10px;
+    }
+
+    .services_container {
+        margin: 50px 25px;
+    } 
+
+    .services_container_inverted {
+        margin: 50px 25px;
+    } 
 }
 
 /* PROJECTS PAGE STYLING */
