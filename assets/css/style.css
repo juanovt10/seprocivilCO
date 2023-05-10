@@ -574,7 +574,6 @@ h3 {
     letter-spacing: 1px;
     list-style-type: none;
     line-height: 75px;
-    
     /* width: 33%; */
 }
 
@@ -955,6 +954,15 @@ h3 {
     #services_paint_image {
         width: 50%;
     }
+    .services_text ul {
+        display: none;
+    }
+    .services_content div {
+        width: 100%;
+    }
+    .services_quote_button div {
+        width: 33%;
+    }
 }
 
 @media (max-width: 979px) {
@@ -974,10 +982,6 @@ h3 {
     .services_text {
         margin-right: 0;
         width: 100%;
-    }
-
-    .services_text ul {
-        display: none;
     }
 
     .services_content div {
@@ -1028,158 +1032,54 @@ h3 {
 
 /* PROJECTS PAGE STYLING */
 
-#projects_hero_image {
-    height: 525px;
+#gallery_intro {
     width: 100%;
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#projects_display {
-    width: 100%;
-    height: 800px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-#projects_display h1 {
-    font-size: 200%;
-    height: 50px;
-    line-height: 50px;
-}
-
-#projects_display_container {
-    margin: 0 75px;
-    width: 100%;
-    height: 650px;
-}
-
-#projects_grid {
-    margin: 25px 75px 0;
-    /* background-color: black; */
-    display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 2;
-    grid-template-areas: 
-    'project1 project2 project3'
-    'project4 project5 project6';
-    row-gap: 50px;
-    column-gap: 2em;
-}
-
-/* #projects_layout {
-    margin: 0 5%;
-    display: grid;
-    grid-template-rows: 300px 40px 300px 40px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    'image1 image2'
-    'title1 title2'
-    'image3 image4'
-    'title3 title4';
-    grid-gap: 1em 5em ; 
-} */
-
-.project_container1 {
-    grid-area: project1;
-}
-
-.project_container2 {
-    grid-area: project2;
-}
-
-.project_container3 {
-    grid-area: project3;
-}
-
-.project_container4 {
-    grid-area: project4;
-}
-
-.project_container5 {
-    grid-area: project5;
-}
-
-.project_container6 {
-    grid-area: project6;
-}
-
-.project_container {
-    height: 250px;
-    width: 100%;
-}
-
-#project1_image {
-    height: 200px;
-    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
-    width: 100%;
-    border-radius: 10% 10% 0 0;
-}
-
-#project2_image {
-    height: 200px;
-    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
-    width: 100%;
-    border-radius: 10% 10% 0 0;
-}
-
-#project3_image {
-    height: 200px;
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
-    width: 100%;
-    border-radius: 10% 10% 0 0;
-}
-
-#project4_image {
-    height: 200px;
-    background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
-    width: 100%;
-    border-radius: 10% 10% 0 0;
-}
-
-#project5_image {
-    height: 200px;
-    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
-    width: 100%;
-    border-radius: 10% 10% 0 0;
-}
-
-#project6_image {
-    height: 200px;
-    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
-    width: 100%;
-    border-radius: 10% 10% 0 0;
-}
-
-.project_grid_titles {
-    background-color: #233539;
     color: #fff;
-    font-size: 70%;
-    height: 50px;
+    background-color: #233539;
+}
+
+#gallery_intro_container {
+    margin: 75px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.project_grid_titles h2, h3 {
-    line-height: 50px;
-    margin: 0 20px;
-    letter-spacing: 1px;
-    color: #fff;
+
+#gallery_intro_container h1 {
+    /* text-align: center; */
+    font-size: 250%;
+    margin-bottom: 50px;
+    /* border-bottom: #233539 solid 2px; */
 }
 
-.project_grid_titles a {
-    text-decoration: none;
-    color: inherit;
+#gallery_intro_container p {
+    font-size: 120%;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
-.project_grid_titles a:hover {
-    font-style: italic;
-}
-
-#projects_gallery {
+#gallery {
     width: 100%;
-    height: 600px;
-    background-color: #233539;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+
+
+#gallery_container {
+    margin: 75px 0;
+    width: 100%;
+}
+
+.horizontal_photo_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 75px;
 }
 
 /* Contact us styling */
