@@ -1069,8 +1069,6 @@ h3 {
     /* justify-content: center; */
 }
 
-
-
 #gallery_container {
     margin: 75px 0;
     width: 100%;
@@ -1078,9 +1076,125 @@ h3 {
 
 .horizontal_photo_container {
     display: flex;
-    justify-content: space-around;
-    margin: 0 75px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 25px;
+    gap: 10px;
 }
+
+.gallery_picture {
+    width: 400px;
+    height: 350px;
+}
+
+#pic_1 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_2 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_3 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_4 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_5 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_6 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_7 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_8 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_9 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_10 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_11 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_12 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_13 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_14 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_15 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+#pic_16 {
+    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+}
+
+@media (max-width: 1700px) {
+    .horizontal_photo_container {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 1300px) {
+    .gallery_picture {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .gallery_picture {
+        width: 400px;
+        height: 350px;
+    }
+    .horizontal_photo_container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 780px) {
+    /* .gallery_picture {
+        width: 350px;
+        height: 350px;
+    } */
+
+    #pic_13, #pic_14, #pic_15, #pic_16 {
+        display: none;
+    }
+
+}
+
+
+/* Picture selector */
+
+
+
+
+
+
+
 
 /* Contact us styling */
 
