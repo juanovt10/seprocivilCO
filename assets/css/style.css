@@ -1175,31 +1175,15 @@ h3 {
 }
 
 @media (max-width: 780px) {
-    /* .gallery_picture {
-        width: 350px;
-        height: 350px;
-    } */
-
     #pic_13, #pic_14, #pic_15, #pic_16 {
         display: none;
     }
-
 }
-
-
-/* Picture selector */
-
-
-
-
-
-
-
 
 /* Contact us styling */
 
 #contact_background_image {
-    height: 853px;
+    /* height: 853px; */
     width: 100%;
     background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
     display: flex;
@@ -1210,43 +1194,57 @@ h3 {
 }
 
 .contact_container {
-    margin: 75px 75px 0;
-    height: 650px;
+    margin: 150px 75px 75px;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 5em;
+    gap: 50px;
+}
+
+.contact_container h1 {
+    font-size: 250%;
+    margin-bottom: 50px;
 }
 
 form {
     background-color: rgba(204, 204, 204, 0.5);
-    /* margin-right: 500px; */
     padding: 25px; 
-    width: 60%;
-}
-
-form h1 {
-    margin-bottom: 50px;
+    max-width: 700px;
+    width: 100%;
 }
 
 #form_contact {
-    display: grid;
-    grid-template-columns: max-content max-content;
-    grid-gap: 5px;
-}
-
-label {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-input {
-    width: 100%;
-    margin: 10px 0;
-    height: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #labels {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 #quote {
@@ -1290,4 +1288,4 @@ input {
 
 .contact_container li {
     margin: 10px 0;
-}
+} */
