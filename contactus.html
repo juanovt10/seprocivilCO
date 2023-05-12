@@ -11,14 +11,14 @@
 <body>
     <header id="header">
         <a href="index.html" id="logo">
-            <h1>Seprocivil Colombia</h1>
+            <h1>IS</h1>
         </a>
         <nav id="navigation_bar">
             <li>
                 <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="aboutus.html">About Us</a>
+                <a href="aboutus.html">About</a>
             </li>
             <li>
                 <a href="services.html">Services</a>
@@ -27,97 +27,62 @@
                 <a href="projects.html">Gallery</a>
             </li>
             <li>
-                <a href="contactus.html" class="active">Contact Us</a>
+                <a href="contactus.html" class="active">Contact</a>
             </li>
-            <li>
+            <li id="language_icon">
                 <a href="#">ESP</a>
             </li>
         </nav>
-        <div class="menu_button" id="open_button"><h1><i class="fa-sharp fa-solid fa-bars"></i></h1></div>
+        <div class="menu_button" id="open_button"><i class="fa-sharp fa-solid fa-bars"></i></div>
     </header>
 
     <section id="contact_background_image">
         <div class="contact_container">
             <form action="#" method="post">
                 <h1>Get a quote!</h1>
-                <div id="form_contact">
-                    <div class="inputs">
-                        <span>First Name</span>
-                        <input type="text" name="fname" id="first_name" required>
-                    </div>
-
-
-                    
-                    <!-- <div id="names">
-                        <span>First Name</span>
-                        <input type="text" name="fname" id="first_name" required>
-                    </div> -->
-
-
-                    <!-- <input type="text" name="lname" id="last_name" required> -->
-
-                    <!-- <div id="email">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div id="phone_services">
-                        <label for="phone">Phone Number</label>                        
-                        <label for="service">Service</label>
-                        <input type="number" name="pnumber" id="number" required>
-                        <select name="service" id="service" value="service">
-                            <option value="paint">Paint</option>
-                            <option value="signage">Signage</option>
-                            <option value="sevices">Devices</option>
-                            <option value="mixed">Mixed services</option>
-                        </select>
-                    </div>
-                    <div id="text">
-                        <label for="quote">Project information</label>
-                        <textarea name="quote_info" id="quote" cols="100" rows="10"></textarea>
-                        <div>
-                            <input id="terms_checkbox" value="accept_terms" type="checkbox" required/>
-                            <label for="terms_checkbox">I accept the the T&Cs</label>
+                <div id="inputs_container">
+                    <div id="form_contact">
+                        <div class="inputs">
+                            <span>First name</span>
+                            <input type="text" name="fname" id="first_name" placeholder="Enter your first name" required>
                         </div>
-                        <input type="submit" id="submit" value="Send">
-                    </div> -->
-                     
-
-
-
-                    <!-- <div id="labels">
-                        <label for="first_name">First Name</label>
-                        <label for="last_name">Last Name</label>
-                        <label for="phone">Phone Number</label>
-                        <label for="email">Email</label>
-                        <label for="company">Comapany (optional)</label>
-                        <label for="service">Service</label>
-                        <label for="location">Location</label>
+                        <div class="inputs">
+                            <span>Last name</span>
+                            <input type="text" name="lname" id="lirst_name" placeholder="Enter your last name" required>
+                        </div>
+                        <div class="inputs">
+                            <span>Email</span>
+                            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                        </div><div class="inputs">
+                            <span>Phone number</span>
+                            <input type="number" name="pnumber" id="phone_number" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="inputs">
+                            <span>Location</span>
+                            <input type="text" name="location" id="locaiton" placeholder="Enter project location" required>
+                        </div>
+                        <div class="inputs">
+                            <span>Service</span>
+                            <select name="service" id="service" value="service">
+                                <option value="paint">Horizontal signage</option>
+                                <option value="signage">Vertical signage</option>
+                                <option value="sevices">Road devices</option>
+                                <option value="mixed">Mixed services</option>
+                            </select>
+                        </div>
                     </div>
-                    <div id="inputs">
-                        <input type="text" name="fname" id="first_name" required>
-                        <input type="text" name="lname" id="last_name" required>
-                        <input type="number" name="pnumber" id="number" required>
-                        <input type="email" name="email" id="email" required>
-                        <input type="text" name="comapany" id="company">
-                        <select name="service" id="service" value="service">
-                            <option value="paint">Paint</option>
-                            <option value="signage">Signage</option>
-                            <option value="sevices">Devices</option>
-                            <option value="mixed">Mixed services</option>
-                        </select>
-                        <input name="location" id="location">
-                    </div> -->
-
-
+                    <div class="text_area">
+                        <span>Enter your project information</span>
+                        <textarea name="quote_info" id="quote_info" cols="30" rows="10"></textarea>
+                    </div>
+                    <div id="terms_checkbox">
+                        <input type="checkbox">
+                        <p>I confirm the information above is correct.</p>
+                    </div>
+                    <div>
+                        <button type="submit">Send!</button>
+                    </div>
                 </div>
-
-                <!-- <label for="quote">Project information</label>
-                <textarea name="quote_info" id="quote" cols="100" rows="10"></textarea>
-                <div id="form_buttons">
-                    <label for="terms_checkbox">I accept the the T&Cs</label>
-                    <input id="terms_checkbox" value="accept_terms" type="checkbox" required/>
-                    <input type="submit" id="submit" value="Send">
-                </div> -->
             </form>
             <div>
                 <h1>Or call us!</h1>
@@ -128,14 +93,7 @@
                     <li>info@seprocivil.com</li>
                 </ul>
             </div>
-            <!-- <ul>
-                <h3>Seprocivil Colombia SAS</h3>
-                <li>Calle 105a #14-64, Bogota, Colombia</li>
-                <li>+57 3124721996</li>
-                <li>info@seprocivil.com</li>
-            </ul> -->
         </div>
-
     </section>
 
     <footer id="footer">
@@ -148,7 +106,7 @@
                     <a href="services.html">Services</a>
                 </li>
                 <li>
-                    <a href="aboutus.html#get_a_quote">Get a Quote</a>
+                    <a href="contactus.html#get_a_quote">Get a Quote</a>
                 </li>
             </ul>
             <div id="social_media">
@@ -162,8 +120,8 @@
                     <i class="fa-brands fa-youtube"></i>
                 </a>
             </div>
-            <a href="index.html" #id="footer_logo">
-                <h1>SEPROCIVIL COLOMBIA</h1>
+            <a href="index.html" #id="footer_logo" class="logo">
+                <h1>IS</h1>
             </a>
         </div>
     </footer>
