@@ -9,7 +9,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #14141f;
 }
 
 h1, h2, h3 {
@@ -35,10 +35,10 @@ h3 {
 #header {
     /* height: 75px; */
     width: 100%;
-    background-color: #fff;
+    background-color: #f5fefe;
     position: fixed;
     z-index: 1000;
-    border-bottom: 1px outset grey;
+    border-bottom: 1px outset #100f1f;
     opacity: 0.95;
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@ h3 {
 #logo h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #233539;
+    color: #100f1f;
 }
 
 #navigation_bar {
@@ -82,13 +82,13 @@ h3 {
 }
 
 #navigation_bar li:hover {
-    color: #800000;
+    color: #8a0a0a;
     /* border-bottom: 1px solid #3a3a3a; */
 
 }
 
 #navigation_bar a.active {
-    color: #800000;
+    color: #8a0a0a;
     /* border-bottom: 1px #233539 solid; */
 }
 
@@ -133,7 +133,7 @@ h3 {
     }
 
     #open_button.active {
-        background-color: #800000;
+        background-color: #8a0a0a;
     }
 
     #navigation_bar {
@@ -142,7 +142,7 @@ h3 {
         right: -100%; /*  this part makes the drop down menu invisible */
         width: 200px;
         margin-right: 0;
-        background-color: white;
+        background-color: #f5fefe;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -151,8 +151,8 @@ h3 {
     }
 
     #navigation_bar li:hover {
-        background-color: #800000;
-        color: white;
+        background-color: #8a0a0a;
+        color: #f5fefe;
     }
 
     #navigation_bar a {
@@ -164,8 +164,8 @@ h3 {
     }
 
     #navigation_bar a.active {
-        background-color: #800000;
-        color: white;
+        background-color: #8a0a0a;
+        color: #f5fefe;
         margin: 0;
         padding: 12px 25px;
     }
@@ -210,10 +210,9 @@ h3 {
 /* HOME-ABOUT US  */ 
 
 #home_about_us {
-    /* height: 600px; */
     width: 100%;
     margin: 0;
-    color: #233539;
+    color: #100f1f;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -222,7 +221,6 @@ h3 {
 #about_us_container {
     margin: 75px;
     width: 100%;
-    /* height: 450px; */
     display: flex;
     flex-direction: row;
 }
@@ -248,12 +246,11 @@ h3 {
 }
 
 #about_us_text a:hover {
-    color: #800000;
+    color: #8a0a0a;
     font-style: italic;
 }
 
 #about_us_image {
-    /* height: 400px; */
     width: 100%; 
     padding: 0;
     background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
@@ -316,8 +313,8 @@ h3 {
 
 #home_services {
     width: 100%;
-    background-color: #233539;
-    color: #fff;
+    background-color: #100f1f;
+    color: #f5fefe;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -419,7 +416,6 @@ h3 {
 
 #services_layout p {
     padding: 20px 25px 0px;
-    /* margin: 20px 25px 0px; */
     font-size: 110%;
     text-align: justify;
     
@@ -456,8 +452,8 @@ h3 {
 
 #projects {
     width: 100%;
-    background-color: #fff;
-    color:#233539;
+    background-color: #f5fefe;
+    color: #100f1f;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -473,8 +469,8 @@ h3 {
     padding: 10px;
     margin: 0;
     text-align: left;
-    color: #fff;
-    background-color: #233539;
+    color: #f5fefe;
+    background-color: #100f1f;
 }
 
 #projects_layout {
@@ -519,7 +515,7 @@ h3 {
 
 #home_projects_container a:hover {
     font-style: italic;
-    color: #800000;
+    color: #8a0a0a;
 }
 
 @media (max-width: 1200px) {
@@ -555,15 +551,15 @@ h3 {
 /*  FOOTER STYLING START*/
 
 #footer {
-    background-color: #41555a;
-    border-top: 1px outset grey;
+    background-color: #100f1f;
+    border-top: 1px outset #100f1f;
 }
 
 #footer_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    color: #f5fefe;
     margin: 0 30px;
 }
 
@@ -574,7 +570,6 @@ h3 {
     letter-spacing: 1px;
     list-style-type: none;
     line-height: 75px;
-    /* width: 33%; */
 }
 
 #footer_container a {
@@ -582,18 +577,13 @@ h3 {
     color: inherit;
     font-size: 120%;
     font-weight: 500;
-    /* padding: 5px 0; */
     margin: 0 15px;
     transition: all .5s ease;
-    /* width: 33%; */
 }
 
 #footer_container a:hover {
-    color: aqua; /* REMEMBER TO CHANGE THE COLOR */
-    /* background-color: #fff;
-    color: #233539; */
+    color: #d7d747; 
 }
-
 
 #social_media {
     display: flex;
@@ -601,7 +591,6 @@ h3 {
     justify-content: center;
     align-items: center;
     line-height: 75px;
-    /* width: 33%; */
 }
 
 #social_media a {
@@ -612,12 +601,12 @@ h3 {
 }
 
 #social_media a:hover {
-    background-color: #fff;
-    color: #233539;
+    background-color: #d7d747;
+    color: #100f1f;
 }
 
 #footer_logo h1 {
-    color: #fff;
+    color: #f5fefe;
     letter-spacing: 2px;
     font-size: 200%;
     text-decoration: none;
@@ -661,8 +650,8 @@ h3 {
 }
 
 #mission_vision {
-    color: #fff;
-    background-color: #233539;
+    color: #f5fefe;
+    background-color: #100f1f;
 }
 
 #company_info_container, #mission_vision_container, #values_container {
@@ -673,14 +662,13 @@ h3 {
 #company_info_container {
     display: flex;
     flex-direction: column;
-    /* gap: 30px; */
 }
 
 #company_info_container h1 {
     text-align: center;
     font-size: 250%;
     margin-bottom: 50px;
-    border-bottom: #233539 solid 2px;
+    border-bottom: #100f1f solid 2px;
 }
 
 #company_info_container p {
@@ -719,7 +707,7 @@ h3 {
     text-align: center;
     font-size: 250%;
     /* margin-bottom: 50px; */
-    border-bottom: #233539 solid 2px;
+    border-bottom: #100f1f solid 2px;
 }
 
 #values_container h2 {
@@ -794,7 +782,6 @@ h3 {
 }
 
 #signage_service, #devices_service, #paint_service {
-    /* height: 650px; */
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -811,16 +798,14 @@ h3 {
 
 .services_container_inverted {
     margin: 75px;
-    /* height: 450px; */
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
     gap: 30px;
-    color: #fff;
+    color: #f5fefe;
 }
 
 #services_paint_image {
-    /* height: 450px; */
     width: 40%;
     margin: 0;
     border-radius: 1%;
@@ -837,14 +822,14 @@ h3 {
     width: 100%;
     margin: 0 0 20px;
     font-size: 150%;
-    border-bottom: #233539 solid 2px;
+    border-bottom: #100f1f solid 2px;
 }
 
 .services_title_inverted {
     width: 100%;
     margin: 0 0 50px;
     font-size: 150%;
-    border-bottom: #fff solid 2px;
+    border-bottom: #f5fefe solid 2px;
     text-align: right;
 }
 
@@ -890,26 +875,26 @@ h3 {
     height: 50px;
     width: 33%;
     margin-top: 50px;
-    background-color: #233539;
+    background-color: #100f1f;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     border: none;
-    color: #fff;
+    color: #f5fefe;
     border-radius: 40px 20px;
-    border: outset gray 2px;
+    border: outset #100f1f 2px;
     transition: all 0.1s ease;
 }
 
 .button_inverted div{
-    color: #233539;
-    background-color: #fff;
+    color: #14141f;
+    background-color: #f5fefe;
     float: right;
 }
 
 .services_quote_button div:hover {
-    border: inset gray 2px;
+    border: inset #100f1f 2px;
     font-style: italic;
 }
 
@@ -922,7 +907,7 @@ h3 {
 
 
 #signage_service {
-    background-color: #233539;
+    background-color: #100f1f;
 }
 
 #services_signage_image {
@@ -1037,8 +1022,8 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: #fff;
-    background-color: #233539;
+    color: #f5fefe;
+    background-color: #100f1f;
 }
 
 #gallery_intro_container {
@@ -1050,10 +1035,8 @@ h3 {
 
 
 #gallery_intro_container h1 {
-    /* text-align: center; */
     font-size: 250%;
     margin-bottom: 50px;
-    /* border-bottom: #233539 solid 2px; */
 }
 
 #gallery_intro_container p {
@@ -1066,7 +1049,6 @@ h3 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
 }
 
 #gallery_container {
@@ -1183,7 +1165,6 @@ h3 {
 /* Contact us styling */
 
 #contact_background_image {
-    /* height: 853px; */
     width: 100%;
     background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
     display: flex;
@@ -1208,7 +1189,7 @@ h3 {
     margin-bottom: 50px;
 }
 
-form {
+.form_space {
     background-color: rgba(204, 204, 204, 0.5);
     padding: 25px; 
     max-width: 700px;
@@ -1223,7 +1204,6 @@ form {
 
 #form_contact {
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -1244,7 +1224,7 @@ form {
     width: 97%;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #233539;
+    border: 1px solid #100f1f;
     padding-left: 15px;
     margin-right: 15px;
     font-size: 16px;
@@ -1257,7 +1237,7 @@ form {
     width: 100%;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #233539;
+    border: 1px solid #100f1f;
     padding-left: 15px;
     font-size: 16px;
     transition: all 0.3s ease;
@@ -1268,11 +1248,11 @@ form {
 
 .inputs input:focus,
 .inputs input:valid {
-    border-color: #800000;
+    border-color: #d7d747;
 }
 
 .inputs select:focus {
-    border-color: #800000;
+    border-color: #d7d747;
 }
 
 .text_area span {
@@ -1282,7 +1262,7 @@ form {
 }
 
 textarea:focus {
-    border-color: #800000;
+    border-color: #d7d747;
 }
 
 
@@ -1295,7 +1275,7 @@ textarea {
     outline: none;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 1px solid #233539;
+    border: 1px solid #100f1f;
     padding: 15px;
     margin-bottom: 25px;
     font-size: 16px;
@@ -1308,7 +1288,6 @@ textarea {
 #terms_checkbox {
     display: flex;
     line-height: 16px;
-    /* text-align: left; */
 }
 
 #terms_checkbox input {
@@ -1325,18 +1304,18 @@ button {
     width: 100%;
     margin-top: 25px;
     border-radius: 5px;
-    border: 1px solid #233539;
+    border: 1px solid #100f1f;
     font-size: 16px;
-    background-color: #233539;
-    color: #fff;
+    background-color: #100f1f;
+    color: #f5fefe;
     cursor: pointer;
     transition: all .3s ease;
 }
 
 
 button:hover, button:focus, button:active {
-    background-color: white;
-    color: #233539;
+    background-color: #d7d747;
+    color: #14141f;
     font-weight: bold;
 }
 
@@ -1356,15 +1335,12 @@ button:hover, button:focus, button:active {
     margin: 5px 0;
 }
 
-
-
-
 @media (max-width: 968px) {
     .contact_container {
         display: flex;
         flex-direction: column;
     }
-    form {
+    .form_space {
         max-width: 95%;
     }
     .inputs {
