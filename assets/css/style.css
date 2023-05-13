@@ -1217,7 +1217,8 @@ form {
 }
 
 #inputs_container {
-    margin: 25px;
+    margin: 25px 25px 0;
+    box-sizing: border-box;
 }
 
 #form_contact {
@@ -1274,6 +1275,12 @@ form {
     border-color: #800000;
 }
 
+.text_area span {
+    display: block;
+    font-weight: 1500;
+    margin-bottom: 5px;
+}
+
 textarea:focus {
     border-color: #800000;
 }
@@ -1286,87 +1293,70 @@ textarea:focus {
 
 textarea {
     outline: none;
+    box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid #233539;
     padding: 15px;
+    margin-bottom: 10px;
     font-size: 16px;
     transition: all 0.3s ease;
     border-bottom-width: 2px;
     font-family: inherit;
-}
-
-#terms_checkbox {
-    display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #labels {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-#inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-#quote {
-    height: 150px;
     resize: none;
-    margin-top: 10px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-#form_buttons {
-    height: 50px;
-    display: flex;
-    align-items: baseline;
-}
-
-#form_buttons label {
-    width: 50%;
 }
 
 #terms_checkbox {
-    height: 20px;
-    width: 10%;
+    display: flex;
+    line-height: 16px;
+    /* text-align: left; */
 }
 
-#submit {
-    width: 40%;
+#terms_checkbox input {
+    width: 5%;
+    float: left;
+}
+
+#terms_checkbox p {
+    width: 95%;
+}
+
+button {
     height: 50px;
+    width: 30%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #233539;
+    font-size: 16px;
+    background-color: #233539;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease;
 }
 
-.contact_container ul {
-    width: 40%;
-    list-style-type: none;
+
+button:hover, button:focus, button:active {
+    background-color: white;
+    color: #233539;
 }
 
-.contact_container ul h3 {
-    margin: 0 0 75px;
+
+
+
+
+
+.inputs input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #233539;
+    padding-left: 15px;
+    margin-right: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border-bottom-width: 2px;
 }
 
-.contact_container li {
-    margin: 10px 0;
-} */
+
+
+
