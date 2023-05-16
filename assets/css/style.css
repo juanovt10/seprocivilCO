@@ -26,14 +26,9 @@ h3 {
     font-size: 150%;
 }
 
-/* h3 {
-    font-size: 200%;
-} */
-
 /* HEADER START */
 
 #header {
-    /* height: 75px; */
     width: 100%;
     background-color: #f5fefe;
     position: fixed;
@@ -65,14 +60,12 @@ h3 {
 #navigation_bar {
     display: flex;
     list-style: none;
-    /* margin-right: 30px; */
     padding: 14px 0;
     text-align: left;
 }
 
 #navigation_bar a {
     text-decoration: none;
-    /* text-align: left; */
     color: inherit;
     font-size: 120%;
     font-weight: 700;
@@ -83,19 +76,13 @@ h3 {
 
 #navigation_bar li:hover {
     color: #8a0a0a;
-    /* border-bottom: 1px solid #3a3a3a; */
 
 }
 
 #navigation_bar a.active {
     color: #8a0a0a;
-    /* border-bottom: 1px #233539 solid; */
 }
 
-/* #language_icon {
-    font-size: 75%;
-    transition: all .5s ease;
-} */
 
 .menu_button {
     cursor: pointer;
@@ -104,11 +91,6 @@ h3 {
     display: none;
     transition: all .5s ease;
 }
-
-/* .menu_button i {
-    height: 75px;
-    width: 75px;
-} */
 
 /* Header responsive design */
 
@@ -396,7 +378,6 @@ h3 {
 /* -- image container stying */
 
 .services_info {
-    /* margin: 30px 0; */
     padding: 30px 0;
     width: 100%;
     display: flex;
@@ -484,7 +465,6 @@ h3 {
 .projects_images {
     width: 100%;
     border-radius: 1%;
-    /* border: red solid 1px; */
 }
 
  #projects_image1 {
@@ -1117,22 +1097,6 @@ h3 {
     background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
 }
 
-#pic_13 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_14 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_15 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_16 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
 @media (max-width: 1700px) {
     .horizontal_photo_container {
         justify-content: space-evenly;
@@ -1157,7 +1121,7 @@ h3 {
 }
 
 @media (max-width: 780px) {
-    #pic_13, #pic_14, #pic_15, #pic_16 {
+    #pic_9, #pic_10, #pic_11, #pic_12 {
         display: none;
     }
 }
@@ -1182,6 +1146,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    min-height: 700px;
 }
 
 .contact_container h1 {
@@ -1231,6 +1196,20 @@ h3 {
     transition: all 0.3s ease;
     border-bottom-width: 2px;
 }
+
+/* To remove the select arrows for the phone number input */
+
+#phone_number::-webkit-outer-spin-button,
+#phone_number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* for mozilla */
+
+#phone_number[type=number] {
+    -moz-appearance:textfield;
+}
+
 
 .inputs select {
     height: 48px;
@@ -1333,6 +1312,17 @@ button:hover, button:focus, button:active {
 
 .contact_info li {
     margin: 5px 0;
+}
+
+/* styling adaptations for sent form landing page */
+
+.form_space_sent {
+    height: 600px;
+    background-color: rgba(204, 204, 204, 0.5);
+    padding: 25px; 
+    max-width: 700px;
+    width: 100%;
+    border-radius: 5px;
 }
 
 @media (max-width: 968px) {
