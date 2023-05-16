@@ -255,8 +255,6 @@ p {
     #about_us_text {
         margin-right: 0;
     }
-
-
     #about_us_text a {
         margin-bottom: 20px;
     }
@@ -1210,10 +1208,12 @@ textarea {
 #terms_checkbox input {
     width: 5%;
     float: left;
+    font-size: 50%;
 }
 
 #terms_checkbox p {
     width: 95%;
+    margin: 0; 
 }
 
 button {
