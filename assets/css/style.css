@@ -105,18 +105,6 @@ p {
 
 /* Header responsive design */
 
-
-/* Media query for when the nav bar gets too close to the logo div */
-
-@media (max-width: 900px) {
-    #navigation_bar {
-        margin-right: 25px;
-    }
-    #navigation_bar a {
-    margin: 0 5px;
-    }
-}
-
 /* Media query to change to a drop down menu */
 
 @media (max-width: 768px) {
@@ -216,7 +204,7 @@ p {
 }
 
 #about_us_container {
-    margin: 75px;
+    margin: 100px 75px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -253,19 +241,11 @@ p {
     height: 500px;
 } */
 
-@media (max-width: 1200px) {
-    #about_us_text {
-        margin-right: 50px;
-    }
-}
+/* Media queries for about us  */
 
 @media (max-width: 979px) {
-
     #about_us_text {
         margin-right: 0;
-    }
-    #about_us_text a {
-        margin-bottom: 20px;
     }
     #about_us_container {
         display: flex;
@@ -274,25 +254,17 @@ p {
     }
     #about_us_image {
         height: 400px;
-        width: 100%; 
-        padding: 0;
         background: url(../images/home_about_us_image.jpg) no-repeat center center;
-        border-radius: 1%;
     }
 }
 
 @media (max-width: 650px) {
     #about_us_text p {
         font-size: 105%;
-        margin: 20px 0;
-    }
-
-    #about_us_text h2 {
-        margin-bottom: 10px;
     }
 
     #about_us_container {
-        margin: 50px 25px;
+        margin: 100px 25px;
     }
     /*  in case is necessary to change for a more portrait
      
@@ -333,6 +305,7 @@ p {
     justify-content: space-around;
     align-items: center;
     border-radius: 1%;
+    height: 300px;
 }
 
 #services_image_1 {
@@ -379,11 +352,10 @@ p {
     }
 }
 
-
-/* -- image container stying */
+/* image container stying */
 
 .services_info {
-    padding: 30px 0;
+    padding: 50px 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -414,18 +386,36 @@ p {
         display: flex;
         flex-direction: column;
         align-items: flex-start; /* this could vary depending the content */
-        gap: 10px;
+        gap: 30px;
+    }
+    .services_info {
+        padding: 90px 0;
     }
 }
 
 @media (max-width: 650px) {
     #services_container {
-        margin: 50px 25px;
+        margin: 100px 25px;
     }
-
-    #services_container h2 {
+    #services_layout p {
+        font-size: 105%;
+    }
+    .services_info i {
         font-size: 200%;
     }
+    .services_info {
+        opacity: 1;
+    }
+    #services_image_1 {
+        background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
+    }
+    #services_image_2 {
+        background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
+    }
+    #services_image_3 {
+        background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
+    }
+
 }
 
 /* HOME-SERVICES END */
@@ -448,7 +438,6 @@ p {
 }
 
 #projects_layout h3 {
-    font-size: 120%;
     padding: 10px;
     margin: 0;
     text-align: left;
@@ -457,11 +446,10 @@ p {
 }
 
 #projects_layout {
-    margin: 0 100px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 5px;
-    margin-top: 120px;
+    gap: 20px;
 }
 
 .projects_images {
@@ -470,25 +458,24 @@ p {
 }
 
  #projects_image1 {
-    height: 200px;
+    height: 300px;
     background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
 }
 
-
 #projects_image2 {
-    height: 200px;
+    height: 300px;
     background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
 }
 
 #projects_image3 {
-    height: 200px;
+    height: 300px;
     background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
 }
 
 #home_projects_container a {
     float: right;
     margin-top: 25px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     color: inherit;
     text-decoration: none;
     font-size: 120%;
@@ -500,35 +487,19 @@ p {
     color: #8a0a0a;
 }
 
-@media (max-width: 1200px) {
-    #projects_layout {
-        margin: 120px 0 0;
-    }
-    #home_projects_container a {
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 979px) {
     #projects_layout {
         display: flex;
         flex-direction: column;
-        margin: 50px 0 0; 
-        
+        gap: 10px;  
     }
 }
 
 @media (max-width: 650px) {
     #home_projects_container {
-        margin: 50px 25px;
-    }
-
-    #home_projects_container h2 {
-        font-size: 200%;
+        margin: 100px 25px;
     }
 }
-
-
 
 /*  FOOTER STYLING START*/
 
