@@ -183,10 +183,14 @@ p {
 #hero_image {
     height: 450px;
     width: 100%;
-    background: url(../images/hero_image_test5.jpg) no-repeat center center;
+    background: url(../images/home_hero_image.jpg) no-repeat center center;
     animation-name: home_hero_image_zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+}
+
+#hero_image img {
+    display: none;
 }
 
 @keyframes home_hero_image_zoom {
@@ -240,14 +244,14 @@ p {
 #about_us_image {
     width: 100%; 
     padding: 0;
-    /* background: url(../images/pexels-athena-2994331.jpg) no-repeat center center; */
+    background: url(../images/home_about_us_image.jpg) no-repeat center center;
     border-radius: 1%;
 }
 
-#about_us_image img{
+/* #about_us_image img{
     width: auto;
     height: 500px;
-}
+} */
 
 @media (max-width: 1200px) {
     #about_us_text {
@@ -272,7 +276,7 @@ p {
         height: 400px;
         width: 100%; 
         padding: 0;
-        /* background: url(../images/pexels-athena-2994331.jpg) no-repeat center center; */
+        background: url(../images/home_about_us_image.jpg) no-repeat center center;
         border-radius: 1%;
     }
 }
