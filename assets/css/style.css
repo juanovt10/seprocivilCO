@@ -1062,9 +1062,14 @@ p {
 }
 
 @media (max-width: 780px) {
+    #gallery_intro_container {
+        margin: 50px 25px;
+    }
+
     #pic_9, #pic_10, #pic_11, #pic_12 {
         display: none;
     }
+
 }
 
 /* Contact us styling */
@@ -1213,7 +1218,7 @@ textarea {
 
 #terms_checkbox p {
     width: 95%;
-    margin: 0; 
+    margin: 0 0 0 10px; 
 }
 
 button {
@@ -1275,6 +1280,9 @@ button:hover, button:focus, button:active {
         margin-bottom: 15px;
         margin-top: 0;
         width: 100%;
+    }
+    #terms_checkbox p {
+        font-size: 95%;
     }
 }
 
