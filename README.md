@@ -1,108 +1,233 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Infraestructura y Senalizacion
+Infrastrucura y Sevilizacion is a real engineering services company that operates in Colombia. The company provides road signage serviices including and not limited to road paint, installation of vertical signage and installation of road safety devices. 
 
-Welcome Juan Velasquez,
+The intent of the website is to increase the company's exposure to new potential clients and to create a more "transparent of the company. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Site view across devices](assets/README_images/Responsive_test_screenshot.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The Infrastructura y Senalizacion website is live, to access it click [here](https://juanovt10.github.io/seprocivilCO/).
 
-## Gitpod Reminders
+## Table of Content
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
++ [UX](#ux "UX")
+  + [Site Purpose](#site_purpose "Site Purpose")
+  + [Site Goal](#site_goal "Site Goal")
+  + [Audience](#audience "Audience")
+  + [Communication](#communication "Communication")
+  + [Current User Goals](#current_user_goals "Current User Goals")
+  + [New User Goals](#new_user_goals "New User Goals")
++ [Design](#design "Design")
+  + [Colour Scheme](#colour_scheme "Colour Scheme")
+  + [Typography](#typography "Typography")
+  + [Imagery](#imagery "Imagery")
++ [Features](#features "Features")
+  + [Existing Features](#existing_features "Existing Features")
++ [Testing](#testing "Testing")
+  + [Validator Testing](#validator_testing "Validator Testing")
+  + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
++ [Technologies Used](#technologies_used "Technologies Used")
+  + [Main Languages Used](#main-languages_used "Main Languages Used")
+  + [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used "Frameworks, Libraries & Programs Used")
++ [Deployment](#deployment "Deployment")
++ [Credits](#credits "Credits")
+  + [Content](#content "Content")
+  + [Media](#media "Media")
 
-`python3 -m http.server`
+## UX
 
-A blue button should appear to click: _Make Public_,
+### Site Purpose: 
 
-Another blue button should appear to click: _Open Browser_.
+Provide information about the road signage company to people interested in consulting or engineering services. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Site Goal: 
+To provide information about who is the company, including the general information about the company, the services it provides and a gallery of pictures showcasting their work. Additionally, it provides contact information and a form to request a quote or information from the company. 
 
-A blue button should appear to click: _Make Public_,
+### Audience: 
+The site is design for individuals or businesses that need any sort of horizontal and vertical demarcation, road installations and XXXX. 
 
-Another blue button should appear to click: _Open Browser_.
+### Communication: 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+### Current User Goals: 
+To keep providing general information about the business to the public. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### New User Goals: 
+- Navigate around the 5 pages of the website to find or search the relevant information they need about the buisenss.
+- 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Design 
 
-------
+### Color Scheme: 
 
-## Release History
+### Typography: 
+Lato was used for the body of the elements and it was accompanied by Roboto for the headings. These two fonts help protraying a professional engieering site. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Imagery:
+All the images excluding the hero image, and background image for the contactus.html and contactus_sent.html pages, where collected directly from the company. The hero image was takeng from a free stock photo platform. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Features
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Exisiting features 
+#### Navigation bar
+The navigation bar is included in all 5 pages and the landing form page to keep the menu in case the user would like to keep navigating the website after form submission. Additionally, the navigation bar is fixed for all pages, this allows the user to access the menu any time it wants.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+(link to the screenshot)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Additionally, using online tutorials where credits I provide on the X section, I developed a basic hamburger menud dropdown for when the website is displayed on screens widths ###px or less. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+(link to the screenshot)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#### Home Page
+This is a brief brief introduction page for all the other pages in the website. Here you will find the About us introduction section with a brief descritpion of the company and the services it provides. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+(link)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+After scrolling you will find the three main types of services the company provides. Here, there is a hovering feature the defines the type of service and provides engagemenet of the user to click and see the main services page. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+(link)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The last section of the home page will provide three main pictures as an introductory gallery pictures where it indicates the city where the project took place and all pictures will be interactive links that will redirect the user to the main gallery page where they can see all the projects' gallery. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+(link)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The footer element for larger screens provides a short version of the main menu in the left corner, links to social media in the center and the company's logo on the right corner to go back to the index page. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+(link)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+For the responsive design of the footer, the extra menu is not displayed from widths XXX or less, and then the logo is also not displayed from widths XXX or less. Leaving only the social media links at the center of the footer from smartphones and smaller devides. 
 
-------
+(links)
 
-## FAQ about the uptime script
+#### About Us Page
+This page provides the information about the company. It specifies where the company was born, where are they HQ and the services they offer. 
 
-**Why have you added this script?**
+(link)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+It containes a mission and vision statement that specifies why the company does business and their way of condicting it. 
 
-**How will this affect me?**
+(link)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The about us also provides a values section where it defines the company values including logos to increase emphasis. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+(link)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+#### Services Page
+This page provides most insightlul information about each of the services provided by the comapany. Each section contains the title, highlighted text and two or three paraphrahps of content. Additionally, in each section the user has a button to click if he wants a quote for a project or more information about the comapny or service. 
 
-**So….?**
+(link)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+#### Gallery Page
+The purpuse of this page is to showcase the work of the company. It has a brief description about where projects take place and, becasue of the amount of projects the company has undertaken, a link to the contact page for specific project information. 
 
-**Can I opt out?**
+(link)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+The section after if just a series of picutres of the company's activities.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+(link)
 
-**Anything more?**
+#### Contact Page
+Finally, the contact page is a non-scrolling page where on the right hand side it provides a form that collects the following information from the user: 
+- First Name
+- Last Name
+- Email
+- Phone Number
+- Project location
+- Interested service (as a dropdown)
+- Information requested about a quote or the company. 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+(link)
 
----
+And it also provides the contact information of the conpany for the user to have communicate directly with the company. 
 
-Happy coding!
+(link)
+
+#### Form Sent page
+This page has the same layout as the contact page, however, it just provides feedback to the user to acknolwedge the reciept of the form. 
+
+(link)
+
+### Future features
+As it was indicated earlier in this document. This project is the prototype for a real company based in Colombia. Therefore, there are some features that are desired from the company that will be placed in the following 6 months. 
+
+- Improvements in dropdown navigation menu to comply with best practices
+- Replace gallery page for projects page and include a page per project
+- Add a downloads page where the user can download technical information about the company, road standards or other documentation. 
+- Add a Whatsapp link to provide quick access to sent an enquiry directly to the company. 
+
+## Testing
+The most challenging topic for this project has been positioning of elements. The use of flexbox has been the core for positioning for all pages of the website. I had many issues when styling the images in the home and services pages. To tackle the issue I used the viewport units to keep resposiveness without distorting the image. 
+
+For the gallery display, I used flexbox by resizing the images provided. These were all 350x350px, providing an constant display of images. 
+
+Then the challeng of place a industry standard "hamburger" menu for the smaller viewports'. The after various investigations about the principle of a javascript drop down menu I end up with the follwing: 
+
+(link)
+
+Here by checking the LMS topics of variables in JavaScript and Python and using the document.querySelector. I defined the specific classes as javascript variables to provide dymanics.
+
+Then by combiniging with the CSS, I provided the toggle system to open and close the menu. 
+
+(CSS link)
+
+The final challenging feature of the project was the positioning of the input items. At the end, I placed every label with it's input in a div each and then displaying them using flex. In addition with the max-width of the form the form layout had two different layouts. 
+
+(link)
+
+### Validatior testing 
+
+- All html files pass through the [W3C validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no issues. (link)
+- All CSS files pass through the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no issues. (link)
+- The page has an XX in accessibility rating in Lighthouse (link)
+- Tested the site opens in Chrome, Safari and Mozilla. 
+- No broken links
+
+## Technologies used
+### Programming langauges used 
+- HTML5
+- CSS
+- JavaScript
+
+### Frameworks, Libraries & Programs used
+- Google Fonts - for the font families: Roboto and Lato. San-serif was used as a default font.
+- Font Awesome - to add icons for the home services section, about us values section and the social media links in the footer.
+- GitPod/CodeAnywhere - to creat my html files & styling sheet before pushing the project to Github.
+- GitHub - to store my repository for submission.
+- Am I Responsive? - to ensure the project looked good across all devices.
+
+### Deployment 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab
+- On the left hand side menu, navigate to the pages tab user code and automation.
+- In build and deplyment, under branch, select the main Branch
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found [here - Infrastructura y Senalizacion](https://juanovt10.github.io/seprocivilCO/). 
+
+## Credits
+### Content
+
+The company provided all the information regarding the content information. The design was inspired by various type of engineering websites of multinational companies, including: 
+
+- [Arup](https://www.arup.com/)
+- [AECOM](https://aecom.com/)
+- [eyrise B.V.](https://www.eyrise.com/)
+- [Henstaff Construction](https://www.henstaff.co.uk/)
+
+### Code 
+My mentor Martina XXXX advice me from the first moment to use flex to position my elements. By the time I had this meeting I was strggling with the positioning of elements but with the [flexfrog tutorial](https://flexboxfroggy.com/) and this [flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to understand how does flexbox work and what are its uses and limitations. 
+
+The main highlught for the project is the "hamburger" menu. Due to best practices and large navigation bar, this type of manu is ideal for the display in smaller devices. Therefore, I went ahead in the [Code Institude](https://codeinstitute.net/global/) full stack development lessons to undestand the principles of variables in javascript and on how to make html ids and classes into javascript variables. The serouces used were: 
+- [W3C schools](https://www.w3schools.com/jsref/met_document_queryselector.asp) 
+- [Tahmid Ahmed youtube tutorial](https://www.youtube.com/watch?v=VRrEquQfh88)
+
+### Media
+The hero image was the only image taken from a free stock page: 
+- [Road avenue with adjacent trees from Pixabay](https://pixabay.com/photos/asphalt-street-trees-avenue-2178703/)
+
+The rest of the picture where provided directly from the existing company in Colombia. The contact details are the follwoing: 
+
+- Eduardo Velasquez
+- +57 3112825558
+- eaduardoantoniovelasquezv@gmail.com
+
+
