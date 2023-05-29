@@ -631,7 +631,7 @@ p {
 #values_container div div {
     display: flex;
     flex-direction: column;
-    justify-items: space-around;
+    justify-content: space-around;
     width: 33%;
     text-align: center;
     margin: 0;
@@ -971,7 +971,7 @@ p {
 
 #form_contact span {
     display: block;
-    font-weight: 1500;
+    font-weight: 1000;
     margin-bottom: 5px;
 }
 
@@ -1032,7 +1032,7 @@ p {
 
 .text_area span {
     display: block;
-    font-weight: 1500;
+    font-weight: 1000;
     margin-bottom: 5px;
 }
 
