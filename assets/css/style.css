@@ -882,6 +882,17 @@ p {
     margin-bottom: 50px;
 }
 
+#gallery_intro_container a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #f5fefe;
+}
+
+#gallery_intro_container a:hover {
+    font-style: italic;
+    border-bottom: solid 1px #f5fefe;
+}
+
 #gallery {
     width: 100%;
     display: flex;
@@ -901,77 +912,17 @@ p {
     gap: 10px;
 }
 
+#gallery_container img {
+    width: auto;
+    height: auto;
+}
+
 .gallery_picture {
-    width: 400px;
+    width: 350px;
     height: 350px;
 }
 
-#pic_1 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_2 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_3 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_4 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_5 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_6 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_7 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_8 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_9 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_10 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_11 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-#pic_12 {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
-}
-
-@media (max-width: 1700px) {
-    .horizontal_photo_container {
-        justify-content: space-evenly;
-    }
-}
-
-@media (max-width: 1300px) {
-    .gallery_picture {
-        width: 350px;
-        height: 350px;
-    }
-}
-
 @media (max-width: 1150px) {
-    .gallery_picture {
-        width: 400px;
-        height: 350px;
-    }
     .horizontal_photo_container {
         justify-content: center;
     }
@@ -982,17 +933,13 @@ p {
         margin: 50px 25px;
     }
 
-    #pic_9, #pic_10, #pic_11, #pic_12 {
-        display: none;
-    }
-
 }
 
 /* Contact us styling */
 
 #contact_background_image {
     width: 100%;
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg);
+    background: url(../images/home_hero_contactus_image.jpg);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
