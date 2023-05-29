@@ -1136,6 +1136,9 @@ button:hover, button:focus, button:active {
         display: flex;
         flex-direction: column;
     }
+    .contact_info {
+        text-align: center;
+    }
     .form_space {
         max-width: 95%;
     }
