@@ -231,8 +231,9 @@ p {
 
 #about_us_image {
     width: 100%; 
+    height: 450px;
     padding: 0;
-    background: url(../images/home_about_us_image.jpg) no-repeat center center;
+    background: url(../images/home_aboutus_image.jpg) no-repeat center center;
     border-radius: 1%;
 }
 
@@ -303,41 +304,43 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     border-radius: 1%;
-    height: 300px;
+    height: 60vh;
+    width: 100%;
 }
 
 #services_image_1 {
-    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+    background: url(../images/home_paint_service_image.jpg) no-repeat center center;
 }
 
 #services_image_2 {
-    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+    background: url(../images/home_vertical_service_image.jpg) no-repeat center center;
 }
 
 #services_image_3 {
-    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
+    background: url(../images/home_devices_service_image.jpg) no-repeat center center;
 }
 
 /* -- hover effect -- */
 
 #services_image_1:hover {
-    background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
+    background: url(../images/home_paint_service_hover_image.jpg) no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
 }
 
 #services_image_2:hover {
-    /* background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center; To add darker image*/
+    background: url(../images/home_vertical_service_hover_image.jpg) no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
 }
 
 #services_image_3:hover {
-    /* background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center; to add darker image*/
+    background: url(../images/home_devices_service_hover_image.jpg) no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
@@ -385,11 +388,14 @@ p {
     #services_layout {
         display: flex;
         flex-direction: column;
-        align-items: flex-start; /* this could vary depending the content */
+        align-items: flex-start;
         gap: 30px;
     }
     .services_info {
         padding: 90px 0;
+    }
+    .services_image {
+        height: 40vh;
     }
 }
 
@@ -397,25 +403,12 @@ p {
     #services_container {
         margin: 100px 25px;
     }
-    #services_layout p {
-        font-size: 105%;
+    #services_layout div {
+        width: 100%;
     }
     .services_info i {
         font-size: 200%;
     }
-    .services_info {
-        opacity: 1;
-    }
-    #services_image_1 {
-        background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
-    }
-    #services_image_2 {
-        background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
-    }
-    #services_image_3 {
-        background: url(../images/pexels-mads-thomsen-2739010_hover.jpg) no-repeat center center;
-    }
-
 }
 
 /* HOME-SERVICES END */
