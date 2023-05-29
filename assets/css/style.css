@@ -229,18 +229,18 @@ p {
     font-style: italic;
 }
 
-#about_us_image {
+/* #about_us_image {
     width: 100%; 
     height: 450px;
     padding: 0;
     background: url(../images/home_aboutus_image.jpg) no-repeat center center;
     border-radius: 1%;
-}
-
-/* #about_us_image img{
-    width: auto;
-    height: 500px;
 } */
+
+#about_us_image img{
+    width: 100%;
+    height: auto;
+}
 
 /* Media queries for about us  */
 
@@ -358,7 +358,7 @@ p {
 /* image container stying */
 
 .services_info {
-    padding: 50px 0;
+    padding: 22vh 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -430,6 +430,13 @@ p {
     width: 100%;
 }
 
+#projects_layout {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 #projects_layout h3 {
     padding: 10px;
     margin: 0;
@@ -438,37 +445,23 @@ p {
     background-color: #100f1f;
 }
 
-#projects_layout {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
 .projects_images {
     width: 100%;
-    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
 }
 
- #projects_image1 {
-    height: 300px;
-    background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
-}
-
-#projects_image2 {
-    height: 300px;
-    background: url(../images/pexels-mads-thomsen-2739010\ \(1\).jpg) no-repeat center center;
-}
-
-#projects_image3 {
-    height: 300px;
-    background: url(../images/pexels-sami-aksu-9917086.jpg) no-repeat center center;
+.projects_images img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 1% 1% 0 0;
+    margin: 0;
 }
 
 #home_projects_container a {
     float: right;
     margin-top: 25px;
-    /* margin-right: 100px; */
     color: inherit;
     text-decoration: none;
     font-size: 120%;
@@ -941,7 +934,6 @@ p {
     width: 100%;
     background: url(../images/home_hero_contactus_image.jpg);
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     color: #fff;
 
@@ -952,7 +944,7 @@ p {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 50px;
     min-height: 700px;
@@ -1135,6 +1127,7 @@ button:hover, button:focus, button:active {
     .contact_container {
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
     }
     .contact_info {
         text-align: center;
