@@ -9,7 +9,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #14141f;
+    color: #161622;
 }
 
 h1, h2, h3 {
@@ -46,7 +46,7 @@ p {
     background-color: #f5fefe;
     position: fixed;
     z-index: 1000;
-    border-bottom: 1px outset #100f1f;
+    border-bottom: 1px outset #161622;
     opacity: 0.95;
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@ p {
 }
 
 #logo h1 {
-    color: #100f1f;
+    color: #161622;
 }
 
 #navigation_bar {
@@ -102,8 +102,6 @@ p {
     display: none;
     transition: all .5s ease;
 }
-
-/* Header responsive design */
 
 /* Media query to change to a drop down menu */
 
@@ -163,7 +161,6 @@ p {
 #hero_outer {
     height: 450px;
     width: 100%;
-    /* background-color: #233539; */
     overflow: hidden;
     position: relative;
 }
@@ -192,7 +189,7 @@ p {
 
 /* HOME HERO IMAGE END*/
 
-/* HOME-ABOUT US  */ 
+/* HOME ABOUT US START*/ 
 
 #home_about_us {
     width: 100%;
@@ -234,7 +231,7 @@ p {
     height: 50vh;
 }
 
-/* Media queries for about us  */
+/* Media queries for home about us  */
 
 @media (max-width: 979px) {
     #about_us_text {
@@ -261,13 +258,13 @@ p {
     }
 }
 
-/* HOME-ABOUT US END */
+/* HOME ABOUT US END */
 
-/* HOME-SERVCIES START */
+/* HOME SERVCIES START */
 
 #home_services {
     width: 100%;
-    background-color: #100f1f;
+    background-color: #161622;
     color: #f5fefe;
     display: flex;
     justify-content: center; 
@@ -371,6 +368,8 @@ p {
     color: inherit;
 }
 
+/* Media queries for home services  */
+
 @media (max-width: 979px) {
     #services_layout {
         display: flex;
@@ -398,15 +397,15 @@ p {
     }
 }
 
-/* HOME-SERVICES END */
+/* HOME SERVICES END */
 
 
-/* HOME-PROJECTS SECTION */
+/* HOME GALLERY START  */
 
 #projects {
     width: 100%;
     background-color: #f5fefe;
-    color: #100f1f;
+    color: #161622;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -429,7 +428,7 @@ p {
     margin: 0;
     text-align: left;
     color: #f5fefe;
-    background-color: #100f1f;
+    background-color: #161622;
 }
 
 .projects_images {
@@ -460,6 +459,8 @@ p {
     color: #8a0a0a;
 }
 
+/* Media queries for home gallery  */
+
 @media (max-width: 979px) {
     #projects_layout {
         display: flex;
@@ -474,12 +475,14 @@ p {
     }
 }
 
+/* HOME GALLERY END  */
+
 /*  FOOTER STYLING START*/
 
 #footer {
-    background-color: #100f1f;
+    background-color: #161622;
     color: #f5fefe;;
-    border-top: 1px outset #100f1f;
+    border-top: 1px outset #161622;
 }
 
 #footer_container {
@@ -497,6 +500,11 @@ p {
     letter-spacing: 1px;
     list-style-type: none;
     line-height: 75px;
+    transition: all .5s ease;
+}
+
+#footer_container li {
+    transition: all .5s ease;
 }
 
 #footer_container a {
@@ -508,8 +516,8 @@ p {
     transition: all .5s ease;
 }
 
-#footer_container ul a:hover {
-    color: #d7d747; 
+#footer_container li:hover {
+    background-color: #3d3d99; 
 }
 
 #social_media {
@@ -528,8 +536,7 @@ p {
 }
 
 #social_media a:hover {
-    background-color: #d7d747;
-    color: #100f1f;
+    background-color: #3d3d99;
 }
 
 /* Responsive design for footer */
@@ -558,7 +565,7 @@ p {
 
 /*  FOOTER STYLING END*/
 
-/* ABOUT US PAGE STYLING */
+/* ABOUT US PAGE STYLING START */
 
 #company_info, #mission_vision, #values {
     width: 100%;
@@ -569,7 +576,7 @@ p {
 
 #mission_vision {
     color: #f5fefe;
-    background-color: #100f1f;
+    background-color: #161622;
 }
 
 #company_info_container, #mission_vision_container, #values_container {
@@ -586,7 +593,7 @@ p {
 #mission_vision_container h2,
 #values_container h2 {
     text-align: center;
-    border-bottom: #100f1f solid 2px;
+    border-bottom: 161622 solid 2px;
 }
 
 #mission_vision_container {
@@ -624,6 +631,8 @@ p {
     margin: 0;
 }
 
+/* Responsive design for about us page  */
+
 @media (max-width: 979px) {
     #mission_vision_container {
         display: flex;
@@ -658,7 +667,9 @@ p {
     }
 }
 
-/* SERVICES PAGE STYLYING */
+/* ABOUT US PAGE STYLING END */
+
+/* SERVICES PAGE STYLYING START */
 
 #services_hero_image {
     height: 525px;
@@ -704,7 +715,7 @@ p {
 
 .services_text h2 {
     width: 100%;
-    border-bottom: #100f1f solid 2px;
+    border-bottom: #161622 solid 2px;
 }
 
 .services_container_inverted h2 {
@@ -737,7 +748,7 @@ p {
     height: 50px;
     width: 33%;
     margin-top: 50px;
-    background-color: #100f1f;
+    background-color: #161622;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -745,24 +756,26 @@ p {
     border: none;
     color: #f5fefe;
     border-radius: 40px 20px;
-    border: outset #100f1f 2px;
+    border: outset #161622 2px;
     transition: all 0.1s ease;
 }
 
 .button_inverted div{
-    color: #14141f;
+    color: #161622;
     background-color: #f5fefe;
     float: right;
 }
 
 .services_quote_button div:hover {
-    border: inset #100f1f 2px;
+    border: inset #161622 2px;
     font-style: italic;
 }
 
 #signage_service {
-    background-color: #100f1f;
+    background-color: #161622;
 }
+
+/* Responsive design for services page  */
 
 @media (max-width: 1200px) {
     .services_text {
@@ -838,7 +851,9 @@ p {
     } 
 }
 
-/* PROJECTS PAGE STYLING */
+/* SERVICES PAGE STYLYING END */
+
+/* PROJECTS PAGE STYLING START*/
 
 #gallery_intro {
     width: 100%;
@@ -846,7 +861,7 @@ p {
     justify-content: space-evenly;
     align-items: center;
     color: #f5fefe;
-    background-color: #100f1f;
+    background-color: #161622;
 }
 
 #gallery_intro_container {
@@ -902,6 +917,8 @@ p {
     height: 350px;
 }
 
+/* Responsive design for services page  */
+
 @media (max-width: 1150px) {
     .horizontal_photo_container {
         justify-content: center;
@@ -918,7 +935,9 @@ p {
 
 }
 
-/* Contact us styling */
+/* PROJECTS PAGE STYLING END*/
+
+/* CONTACT US PAGE STYLING START */
 
 #contact_background_image {
     width: 100%;
@@ -975,7 +994,7 @@ p {
     width: 97%;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #100f1f;
+    border: 1px solid #161622;
     padding-left: 15px;
     margin-right: 15px;
     font-size: 16px;
@@ -1002,7 +1021,7 @@ p {
     width: 100%;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #100f1f;
+    border: 1px solid #161622;
     padding-left: 15px;
     font-size: 16px;
     transition: all 0.3s ease;
@@ -1013,11 +1032,11 @@ p {
 
 .inputs input:focus,
 .inputs input:valid {
-    border-color: #d7d747;
+    border-color: #3d3d99;
 }
 
 .inputs select:focus {
-    border-color: #d7d747;
+    border-color: #3d3d99;
 }
 
 .text_area span {
@@ -1027,7 +1046,7 @@ p {
 }
 
 textarea:focus {
-    border-color: #d7d747;
+    border-color: #3d3d99;
 }
 
 
@@ -1040,7 +1059,7 @@ textarea {
     outline: none;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 1px solid #100f1f;
+    border: 1px solid #161622;
     padding: 15px;
     margin-bottom: 25px;
     font-size: 16px;
@@ -1071,9 +1090,9 @@ button {
     width: 100%;
     margin-top: 25px;
     border-radius: 5px;
-    border: 1px solid #100f1f;
+    border: 1px solid #161622;
     font-size: 16px;
-    background-color: #100f1f;
+    background-color: #161622;
     color: #f5fefe;
     cursor: pointer;
     transition: all .3s ease;
@@ -1081,8 +1100,7 @@ button {
 
 
 button:hover, button:focus, button:active {
-    background-color: #d7d747;
-    color: #14141f;
+    background-color: #3d3d99;
     font-weight: bold;
 }
 
@@ -1112,6 +1130,8 @@ button:hover, button:focus, button:active {
     width: 100%;
     border-radius: 5px;
 }
+
+/* Responsive design for contact and form landing pages  */
 
 @media (max-width: 968px) {
     .contact_container {
