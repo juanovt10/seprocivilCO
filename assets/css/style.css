@@ -1118,7 +1118,6 @@ button:hover, button:focus, button:active {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        margin: 100px 0;
     }
     .contact_info {
         text-align: center;
@@ -1137,5 +1136,12 @@ button:hover, button:focus, button:active {
     }
 }
 
-
-
+@media (max-width: 480px) {
+    .contact_container {
+        margin: 150px 25px 75px;
+    }
+    #inputs_container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
