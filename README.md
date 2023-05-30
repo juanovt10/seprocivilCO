@@ -3,7 +3,7 @@ Infrastrucura y Sevilizacion is a real engineering services company that operate
 
 The intent of the website is to increase the company's exposure to new potential clients and to create a more "transparent of the company. 
 
-![Site view across devices](assets/README_images/Responsive_test_screenshot.png)
+![Site view across devices](assets/readme_images/responsive_test_screenshot.png)
 
 The Infrastructura y Senalizacion website is live, to access it click [here](https://juanovt10.github.io/seprocivilCO/).
 
