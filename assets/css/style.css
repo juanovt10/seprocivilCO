@@ -229,17 +229,9 @@ p {
     font-style: italic;
 }
 
-/* #about_us_image {
-    width: 100%; 
-    height: 450px;
-    padding: 0;
-    background: url(../images/home_aboutus_image.jpg) no-repeat center center;
-    border-radius: 1%;
-} */
-
-#about_us_image img{
+#about_us_container img{
     width: 100%;
-    height: auto;
+    height: 50vh;
 }
 
 /* Media queries for about us  */
@@ -261,17 +253,12 @@ p {
 
 @media (max-width: 650px) {
     #about_us_text p {
-        font-size: 105%;
+        font-size: 100%;
     }
 
     #about_us_container {
         margin: 100px 25px;
     }
-    /*  in case is necessary to change for a more portrait
-     
-    #about_us_image {
-        background: url(../images/pexels-athena-2994331.jpg) no-repeat center center;
-    } */
 }
 
 /* HOME-ABOUT US END */
@@ -818,7 +805,7 @@ p {
     }
 
     .services_quote_button div {
-        width: 33%;
+        width: 40%;
     }
     .services_container img,
     .services_container_inverted img {
@@ -924,6 +911,9 @@ p {
 @media (max-width: 780px) {
     #gallery_intro_container {
         margin: 50px 25px;
+    }
+    #gallery_container img {
+        width: 100%;
     }
 
 }
@@ -1128,12 +1118,14 @@ button:hover, button:focus, button:active {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        margin: 100px 0;
     }
     .contact_info {
         text-align: center;
     }
     .form_space {
-        max-width: 95%;
+        max-width: none;
+        width: 100%;
     }
     .inputs {
         margin-bottom: 15px;
