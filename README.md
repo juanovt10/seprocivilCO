@@ -118,7 +118,7 @@ The purpose of this page is to showcase the company's portfolio of work. It prov
 
 The subsequent section consists solely of a series of pictures showcasing the company's activities and projects.
 
-![Gallery](assets/readme_images/gallery_readme_image)
+![Gallery](assets/readme_images/gallery_readme_image.png)
 
 #### Contact Page:
 
@@ -151,6 +151,8 @@ As previously mentioned in this document, this project represents a prototype we
 - Transformation of the gallery page into a dedicated projects page, featuring individual pages for each project.
 - Introduction of a downloads page, enabling users to access and download technical information about the company, road standards, and other relevant documentation. 
 - Addition of a WhatsApp link, providing users with quick access to send inquiries directly to the company.
+
+Furthermore, it is important to note that the previous name of the company was Seprocivil Colombia SAS, which is reflected in the repository name and title of the HTML pages. However, prior to the official launch of the website, these details will be updated to reflect the current name of the company.
 
 ## Testing
 
