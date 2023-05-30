@@ -1,7 +1,7 @@
 # Infraestructura y Senalizacion
-Infraestructura y Señalización is an actual engineering services company based in Colombia. The company specializes in providing comprehensive road signage services, which encompass a range of activities such as road painting, vertical signage installation, and installation of road safety devices.  
+Infraestructura y Señalización is an actual engineering services company based in Colombia. The company specializes in providing road signage services, which encompass a range of activities such as road painting, vertical signage installation, and installation of road safety devices.  
 
-The intent of the website is ncrease the company's exposure to potential clients and establish a strong online presence, ultimately expanding its reach and attracting new business opportunities.
+The intent of the website is to increase the company's exposure to potential clients and establish a strong online presence, ultimately expanding its reach and attracting new business opportunities.
 
 ![Site view across devices](assets/readme_images/responsive_test_screenshot.png)
 
@@ -19,20 +19,24 @@ The Infrastructura y Senalizacion website is live, to access it click [here](htt
 
 ## UX
 
-### Site Purpose 
+### Site Purpose:
 
-To provide information about the road signage company to people interested in their consulting or engineering services. 
+To serve as a valuable resource for individuals seeking information about the road signage company and its consulting or engineering services.
 
 ### Site Goal: 
-To provide information about who is the company, including the general information about the company, the services it provides and a gallery of pictures showcasting their work. Additionally, it provides contact information and a form to request a quote or information from the company. 
+
+To provide the users with essential information about the company, encompassing general details, the range of services offered, and a captivating gallery showcasing their work. Furthermore, it offers convenient contact information and a user-friendly form for requesting quotes or additional information from the company.
 
 ### Audience: 
-The site is design for individuals or businesses that need any sort of horizontal and vertical demarcation, road installations and XXXX. 
+
+The website targets individuals or businesses in need of horizontal and vertical demarcation, road installations, and road devices.
 
 ### Current User Goals: 
-Keeping up to date with new information posted on the website
+
+Keeping up to date with new information posted on the website.
 
 ### New User Goals: 
+
 - Ability to get a general understanding of the company background, services and projects
 - Contact the company by sending a set form or by using the contact details displayed in the website
 - Visit the company's social media 
@@ -40,20 +44,24 @@ Keeping up to date with new information posted on the website
 ## Design 
 
 ### Color Scheme: 
+
 The color scheme of the website was deliberately selected to create a monochrome aesthetic. The primary colors chosen were razing black for the body and azure for the background. In order to enhance contrast within different sections of the website pages, these colors were inverted. For the header, a dark red shade was employed to create contrast against a lighter background, while the footer utilized Egyptian blue to contrast with a darker background. This careful selection of colors contributed to a visually appealing and cohesive design throughout the website.
 
 ![Color palette](assets/readme_images/color_palette_readme_file.png)
 
-### Typography: 
+### Typography:
 The body of the elements on the website utilized the font Lato, while the headings were complemented by Roboto. This careful selection of fonts enhances the professional appearance of the engineering site.
 
 ### Imagery:
+
 All images on the website, except for the hero image and background images specifically used on the contactus.html and contactus_sent.html pages, were sourced directly from the company. The hero image, on the other hand, was obtained from a free stock photo platform.
 
 ## Features
 
 ### Exisiting features 
-#### Navigation bar
+
+#### Navigation bar:
+
 The website maintains a consistent and fixed navigation bar across all pages, including the landing form page. Users can access the menu at any time, even after form submission, allowing them to continue exploring the site. The active page is highlighted in the navigation bar, aiding users in easily identifying their current location and facilitating smooth navigation.
 
 ![navigation bar](assets/readme_images/navigation_bar.png)
@@ -62,7 +70,8 @@ In addition, I developed a basic hamburger menu dropdown for screen widths of 76
 
 ![Hamburger menu nav bar](assets/readme_images/hamburger_menu.png)
 
-#### Home Page
+#### Home Page:
+
 This serves as a concise introduction page for all other sections of the website. Here, you will discover an About Us section that provides a brief description of the company along with an overview of the services it offers.
 
 ![Home page about us](assets/readme_images/home_aboutus_readme_image.png)
@@ -81,7 +90,7 @@ The footer element for larger screens provides a short version of the main menu 
 
 Regarding the responsive design of the footer, the additional menu is hidden for screen widths of 979px or less. Furthermore, for screen widths of 650px or less, the company logo is also not displayed. This leaves only the social media links at the center of the footer, providing a streamlined layout for smartphones and smaller devices.
 
-#### About Us Page
+#### About Us Page:
 
 This page serves as a comprehensive overview of the company, highlighting its origins, headquarters location, and the range of services it offers. It provides essential details about the company's birthplace, headquarters, and an overview of the services available. 
 
@@ -95,12 +104,14 @@ The "About Us" section also includes a dedicated values section, showcasing the 
 
 ![Company values](assets/readme_images/values_readme_image.png)
 
-#### Services Page
+#### Services Page:
+
 This page provides detailed information about the company's services, with each section featuring a title, highlighted text, and a few paragraphs of content. Users can easily request a quote or seek additional information about the company or a specific service by clicking the designated button within each section.
 
 ![Services page](assets/readme_images/services_readme_image.png)
 
-#### Gallery Page
+#### Gallery Page:
+
 The purpose of this page is to showcase the company's portfolio of work. It provides a brief description of the project locations. Given the extensive number of projects undertaken by the company, there is a link to the contact page for obtaining specific information about individual projects.
 
 ![Gallery description](assets/readme_images/gallery_description_readme_image.png)
@@ -109,7 +120,8 @@ The subsequent section consists solely of a series of pictures showcasing the co
 
 ![Gallery](assets/readme_images/gallery_readme_image)
 
-#### Contact Page
+#### Contact Page:
+
 Lastly, the contact page features a form on the right-hand side that allows users to provide the following information:
 - First Name
 - Last Name
@@ -125,12 +137,14 @@ Furthermore, this section incorporates the contact information of the company, f
 
 ![Contact details](assets/readme_images/contact_info_readme_image.png)
 
-#### Form Sent page
+#### Form Sent page:
+
 This page follows the same layout as the contact page, but it serves solely to provide feedback to the user, acknowledging the receipt of the form submission. 
 
 ![Landing page message](assets/readme_images/form_feedback_readme_image.png)
 
 ### Future features
+
 As previously mentioned in this document, this project represents a prototype website for an actual company based in Colombia. As a result, there are specific features and enhancements that are planned to be implemented by the company over the next six months.
 
 - Enhancements to the dropdown navigation menu to align with best practices and improve user experience.
@@ -139,6 +153,7 @@ As previously mentioned in this document, this project represents a prototype we
 - Addition of a WhatsApp link, providing users with quick access to send inquiries directly to the company.
 
 ## Testing
+
 The positioning of elements has been the most challenging aspect of this project. To address this, the use of flexbox has been crucial in positioning elements across all pages of the website. In order to ensure responsiveness without distorting the images, I employed viewport units to maintain their proportions effectively. This approach helped overcome the issues encountered and maintain a visually appealing and responsive design throughout the website.
 
 To achieve the gallery display, I utilized flexbox and resized the images accordingly. All the images were standardized to a size of 350x350px, ensuring a consistent and visually appealing image display. This approach allowed for a cohesive and uniform presentation of the gallery images.
@@ -157,10 +172,12 @@ The project faced challenges in positioning form input items effectively. To add
 
 - All html files pass through the [W3C validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no issues. ![html validator result](assets/readme_images/html_validator_readme_image.png)
 - All CSS files pass through the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no issues. ![CSS validator result](assets/readme_images/css_validator_readme_image.png)
+- Page has an excellent Accessibility rating in Lighthouse. ![Lighthouse report](assets/readme_images/lighthouse_readme_image.png)
 - Tested the site opens in Chrome, Safari and Mozilla. 
 - No broken links
 
 ### Unfixed bugs
+
 Additionally, it is worth noting that the website encountered an unfixed bug, which was unrelated to the code itself but rather caused by the hosting service. This bug prevented the execution of the JavaScript code, resulting in the unavailability of the dropdown menu and Font Awesome logos. The error message indicated was: "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://kit.fontawesome.com/3156a2e938.js. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing). Status code: 530."
 
 ## Technologies used
@@ -186,7 +203,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - The live link can be found [here - Infrastructura y Senalizacion](https://juanovt10.github.io/seprocivilCO/). 
 
 ## Credits
-### Content
+
+### Design
 
 The company provided all the information regarding the content information. The design was inspired by various type of engineering websites of multinational companies, including: 
 
@@ -208,11 +226,10 @@ Furthermore, I drew inspiration for form styling and interaction from the follow
 - [CodingLab](https://www.youtube.com/watch?v=okbByPWS1Xc)
 
 ### Media
+
 The hero image was the only image taken from a free stock page: 
 - [Road avenue with adjacent trees from Pixabay](https://pixabay.com/photos/asphalt-street-trees-avenue-2178703/)
 
 The rest of the picture where provided directly from the existing company in Colombia. The contact details are the follwoing: 
 - Eduardo Velasquez
 - eaduardoantoniovelasquezv@gmail.com
-
-
