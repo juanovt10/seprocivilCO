@@ -1,7 +1,7 @@
 # Infraestructura y Senalizacion
-Infrastrucura y Sevilizacion is a real engineering services company that operates in Colombia. The company provides road signage serviices including and not limited to road paint, installation of vertical signage and installation of road safety devices. 
+Infraestructura y Señalización is an actual engineering services company based in Colombia. The company specializes in providing comprehensive road signage services, which encompass a range of activities such as road painting, vertical signage installation, and installation of road safety devices.  
 
-The intent of the website is to increase the company's exposure to new potential clients and to create a more "transparent of the company. 
+The intent of the website is ncrease the company's exposure to potential clients and establish a strong online presence, ultimately expanding its reach and attracting new business opportunities.
 
 ![Site view across devices](assets/readme_images/responsive_test_screenshot.png)
 
@@ -9,35 +9,19 @@ The Infrastructura y Senalizacion website is live, to access it click [here](htt
 
 ## Table of Content
 
-+ [UX](#ux "UX")
-  + [Site Purpose](#site_purpose "Site Purpose")
-  + [Site Goal](#site_goal "Site Goal")
-  + [Audience](#audience "Audience")
-  + [Communication](#communication "Communication")
-  + [Current User Goals](#current_user_goals "Current User Goals")
-  + [New User Goals](#new_user_goals "New User Goals")
-+ [Design](#design "Design")
-  + [Colour Scheme](#colour_scheme "Colour Scheme")
-  + [Typography](#typography "Typography")
-  + [Imagery](#imagery "Imagery")
-+ [Features](#features "Features")
-  + [Existing Features](#existing_features "Existing Features")
-+ [Testing](#testing "Testing")
-  + [Validator Testing](#validator_testing "Validator Testing")
-  + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
-+ [Technologies Used](#technologies_used "Technologies Used")
-  + [Main Languages Used](#main-languages_used "Main Languages Used")
-  + [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used "Frameworks, Libraries & Programs Used")
-+ [Deployment](#deployment "Deployment")
-+ [Credits](#credits "Credits")
-  + [Content](#content "Content")
-  + [Media](#media "Media")
++ [UX](#ux)
++ [Design](#design)
++ [Features](#features)
++ [Testing](#testing)
++ [Technologies Used](#technologies_used)
++ [Deployment](#deployment)
++ [Credits](#credits)
 
 ## UX
 
-### Site Purpose: 
+### Site Purpose 
 
-Provide information about the road signage company to people interested in consulting or engineering services. 
+To provide information about the road signage company to people interested in their consulting or engineering services. 
 
 ### Site Goal: 
 To provide information about who is the company, including the general information about the company, the services it provides and a gallery of pictures showcasting their work. Additionally, it provides contact information and a form to request a quote or information from the company. 
@@ -45,88 +29,88 @@ To provide information about who is the company, including the general informati
 ### Audience: 
 The site is design for individuals or businesses that need any sort of horizontal and vertical demarcation, road installations and XXXX. 
 
-### Communication: 
-
-
 ### Current User Goals: 
-To keep providing general information about the business to the public. 
+Keeping up to date with new information posted on the website
 
 ### New User Goals: 
-- Navigate around the 5 pages of the website to find or search the relevant information they need about the buisenss.
-- 
+- Ability to get a general understanding of the company background, services and projects
+- Contact the company by sending a set form or by using the contact details displayed in the website
+- Visit the company's social media 
 
 ## Design 
 
 ### Color Scheme: 
+The color scheme of the website was deliberately selected to create a monochrome aesthetic. The primary colors chosen were razing black for the body and azure for the background. In order to enhance contrast within different sections of the website pages, these colors were inverted. For the header, a dark red shade was employed to create contrast against a lighter background, while the footer utilized Egyptian blue to contrast with a darker background. This careful selection of colors contributed to a visually appealing and cohesive design throughout the website.
+
+![Color palette](assets/readme_images/color_palette_readme_file.png)
 
 ### Typography: 
-Lato was used for the body of the elements and it was accompanied by Roboto for the headings. These two fonts help protraying a professional engieering site. 
+The body of the elements on the website utilized the font Lato, while the headings were complemented by Roboto. This careful selection of fonts enhances the professional appearance of the engineering site.
 
 ### Imagery:
-All the images excluding the hero image, and background image for the contactus.html and contactus_sent.html pages, where collected directly from the company. The hero image was takeng from a free stock photo platform. 
+All images on the website, except for the hero image and background images specifically used on the contactus.html and contactus_sent.html pages, were sourced directly from the company. The hero image, on the other hand, was obtained from a free stock photo platform.
 
 ## Features
 
 ### Exisiting features 
 #### Navigation bar
-The navigation bar is included in all 5 pages and the landing form page to keep the menu in case the user would like to keep navigating the website after form submission. Additionally, the navigation bar is fixed for all pages, this allows the user to access the menu any time it wants.
+The website maintains a consistent and fixed navigation bar across all pages, including the landing form page. Users can access the menu at any time, even after form submission, allowing them to continue exploring the site. The active page is highlighted in the navigation bar, aiding users in easily identifying their current location and facilitating smooth navigation.
 
-(link to the screenshot)
+![navigation bar](assets/readme_images/navigation_bar.png)
 
-Additionally, using online tutorials where credits I provide on the X section, I developed a basic hamburger menud dropdown for when the website is displayed on screens widths ###px or less. 
+In addition, I developed a basic hamburger menu dropdown for screen widths of 768px or less, giving credit to Code Institute, online forums, and online tutorials in the credits section. This improves the website's usability on smaller devices and ensures smooth navigation.
 
-(link to the screenshot)
+![Hamburger menu nav bar](assets/readme_images/hamburger_menu.png)
 
 #### Home Page
-This is a brief brief introduction page for all the other pages in the website. Here you will find the About us introduction section with a brief descritpion of the company and the services it provides. 
+This serves as a concise introduction page for all other sections of the website. Here, you will discover an About Us section that provides a brief description of the company along with an overview of the services it offers.
 
-(link)
+![Home page about us](assets/readme_images/home_aboutus_readme_image.png)
 
-After scrolling you will find the three main types of services the company provides. Here, there is a hovering feature the defines the type of service and provides engagemenet of the user to click and see the main services page. 
+Upon scrolling, you will encounter the three primary types of services offered by the company. Notably, a hovering feature is implemented, allowing users to hover over each service to gain insight into its nature and encouraging engagement by clicking to explore the main services page.
 
-(link)
+![Home page services](assets/readme_images/home_service_readme_image.png)
 
-The last section of the home page will provide three main pictures as an introductory gallery pictures where it indicates the city where the project took place and all pictures will be interactive links that will redirect the user to the main gallery page where they can see all the projects' gallery. 
+The final section of the home page features an introductory gallery with three main pictures, each indicating the city where the corresponding project took place. These interactive pictures serve as clickable links, redirecting users to the main gallery page where they can explore the complete collection of project galleries.
 
-(link)
+![Home page gallery](assets/readme_images/home_gallery_readme_image.png)
 
 The footer element for larger screens provides a short version of the main menu in the left corner, links to social media in the center and the company's logo on the right corner to go back to the index page. 
 
-(link)
+![Footer](assets/readme_images/footer_readme_image.png)
 
-For the responsive design of the footer, the extra menu is not displayed from widths XXX or less, and then the logo is also not displayed from widths XXX or less. Leaving only the social media links at the center of the footer from smartphones and smaller devides. 
-
-(links)
+Regarding the responsive design of the footer, the additional menu is hidden for screen widths of 979px or less. Furthermore, for screen widths of 650px or less, the company logo is also not displayed. This leaves only the social media links at the center of the footer, providing a streamlined layout for smartphones and smaller devices.
 
 #### About Us Page
-This page provides the information about the company. It specifies where the company was born, where are they HQ and the services they offer. 
 
-(link)
+This page serves as a comprehensive overview of the company, highlighting its origins, headquarters location, and the range of services it offers. It provides essential details about the company's birthplace, headquarters, and an overview of the services available. 
 
-It containes a mission and vision statement that specifies why the company does business and their way of condicting it. 
+![About us information](assets/readme_images/aboutus_information_readme_image.png)
 
-(link)
+Within this page, you will find a mission and vision statement that clearly articulates the purpose and guiding principles of the company.
 
-The about us also provides a values section where it defines the company values including logos to increase emphasis. 
+![Mission and vision statements](assets/readme_images/mis_vis_readme_image.png)
 
-(link)
+The "About Us" section also includes a dedicated values section, showcasing the company's core values. These values are defined and emphasized through the inclusion of logos, highlighting their significance and importance to the company's ethos.
+
+![Company values](assets/readme_images/values_readme_image.png)
 
 #### Services Page
-This page provides most insightlul information about each of the services provided by the comapany. Each section contains the title, highlighted text and two or three paraphrahps of content. Additionally, in each section the user has a button to click if he wants a quote for a project or more information about the comapny or service. 
+This page provides detailed information about the company's services, with each section featuring a title, highlighted text, and a few paragraphs of content. Users can easily request a quote or seek additional information about the company or a specific service by clicking the designated button within each section.
 
-(link)
+![Services page](assets/readme_images/services_readme_image.png)
 
 #### Gallery Page
-The purpuse of this page is to showcase the work of the company. It has a brief description about where projects take place and, becasue of the amount of projects the company has undertaken, a link to the contact page for specific project information. 
+The purpose of this page is to showcase the company's portfolio of work. It provides a brief description of the project locations. Given the extensive number of projects undertaken by the company, there is a link to the contact page for obtaining specific information about individual projects.
 
-(link)
+![Gallery description](assets/readme_images/gallery_description_readme_image.png)
 
-The section after if just a series of picutres of the company's activities.
+The subsequent section consists solely of a series of pictures showcasing the company's activities and projects.
 
-(link)
+![Gallery](assets/readme_images/gallery_readme_image)
 
 #### Contact Page
-Finally, the contact page is a non-scrolling page where on the right hand side it provides a form that collects the following information from the user: 
+Lastly, the contact page features a form on the right-hand side that allows users to provide the following information:
 - First Name
 - Last Name
 - Email
@@ -135,51 +119,49 @@ Finally, the contact page is a non-scrolling page where on the right hand side i
 - Interested service (as a dropdown)
 - Information requested about a quote or the company. 
 
-(link)
+![Form](assets/readme_images/form_readme_image.png)
 
-And it also provides the contact information of the conpany for the user to have communicate directly with the company. 
+Furthermore, this section incorporates the contact information of the company, facilitating direct communication between users and the company for any inquiries or communication requirements.
 
-(link)
+![Contact details](assets/readme_images/contact_info_readme_image.png)
 
 #### Form Sent page
-This page has the same layout as the contact page, however, it just provides feedback to the user to acknolwedge the reciept of the form. 
+This page follows the same layout as the contact page, but it serves solely to provide feedback to the user, acknowledging the receipt of the form submission. 
 
-(link)
+![Landing page message](assets/readme_images/form_feedback_readme_image.png)
 
 ### Future features
-As it was indicated earlier in this document. This project is the prototype for a real company based in Colombia. Therefore, there are some features that are desired from the company that will be placed in the following 6 months. 
+As previously mentioned in this document, this project represents a prototype website for an actual company based in Colombia. As a result, there are specific features and enhancements that are planned to be implemented by the company over the next six months.
 
-- Improvements in dropdown navigation menu to comply with best practices
-- Replace gallery page for projects page and include a page per project
-- Add a downloads page where the user can download technical information about the company, road standards or other documentation. 
-- Add a Whatsapp link to provide quick access to sent an enquiry directly to the company. 
+- Enhancements to the dropdown navigation menu to align with best practices and improve user experience.
+- Transformation of the gallery page into a dedicated projects page, featuring individual pages for each project.
+- Introduction of a downloads page, enabling users to access and download technical information about the company, road standards, and other relevant documentation. 
+- Addition of a WhatsApp link, providing users with quick access to send inquiries directly to the company.
 
 ## Testing
-The most challenging topic for this project has been positioning of elements. The use of flexbox has been the core for positioning for all pages of the website. I had many issues when styling the images in the home and services pages. To tackle the issue I used the viewport units to keep resposiveness without distorting the image. 
+The positioning of elements has been the most challenging aspect of this project. To address this, the use of flexbox has been crucial in positioning elements across all pages of the website. In order to ensure responsiveness without distorting the images, I employed viewport units to maintain their proportions effectively. This approach helped overcome the issues encountered and maintain a visually appealing and responsive design throughout the website.
 
-For the gallery display, I used flexbox by resizing the images provided. These were all 350x350px, providing an constant display of images. 
+To achieve the gallery display, I utilized flexbox and resized the images accordingly. All the images were standardized to a size of 350x350px, ensuring a consistent and visually appealing image display. This approach allowed for a cohesive and uniform presentation of the gallery images.
 
-Then the challeng of place a industry standard "hamburger" menu for the smaller viewports'. The after various investigations about the principle of a javascript drop down menu I end up with the follwing: 
+Another challenge I encountered was implementing an industry-standard "hamburger" menu for smaller viewports. After conducting extensive research on JavaScript dropdown menus, I arrived at the following solution:
 
-(link)
+![JavaScript code](assets/readme_images/js_script_readme_image.png)
 
-Here by checking the LMS topics of variables in JavaScript and Python and using the document.querySelector. I defined the specific classes as javascript variables to provide dymanics.
+By delving into the Code Institute topics of variables in JavaScript and Python and utilizing the document.querySelector method, I defined specific classes as JavaScript variables to introduce dynamic functionality.
 
-Then by combiniging with the CSS, I provided the toggle system to open and close the menu. 
+Next, by combining these variables with CSS, I implemented a toggle system that allows for the opening and closing of the menu. This combination of JavaScript and CSS enables seamless interaction with the menu, providing a smooth user experience.
 
-(CSS link)
-
-The final challenging feature of the project was the positioning of the input items. At the end, I placed every label with it's input in a div each and then displaying them using flex. In addition with the max-width of the form the form layout had two different layouts. 
-
-(link)
+The project faced challenges in positioning form input items effectively. To address this, I grouped each label with its corresponding input element in individual div containers and utilized flexbox to arrange them. The form layout was further enhanced by implementing a max-width property, resulting in two adaptable layouts based on available space. This approach achieved a visually pleasing and responsive form design, elevating the overall user experience.
 
 ### Validatior testing 
 
-- All html files pass through the [W3C validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no issues. (link)
-- All CSS files pass through the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no issues. (link)
-- The page has an XX in accessibility rating in Lighthouse (link)
+- All html files pass through the [W3C validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no issues. ![html validator result](assets/readme_images/html_validator_readme_image.png)
+- All CSS files pass through the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no issues. ![CSS validator result](assets/readme_images/css_validator_readme_image.png)
 - Tested the site opens in Chrome, Safari and Mozilla. 
 - No broken links
+
+### Unfixed bugs
+Additionally, it is worth noting that the website encountered an unfixed bug, which was unrelated to the code itself but rather caused by the hosting service. This bug prevented the execution of the JavaScript code, resulting in the unavailability of the dropdown menu and Font Awesome logos. The error message indicated was: "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://kit.fontawesome.com/3156a2e938.js. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing). Status code: 530."
 
 ## Technologies used
 ### Programming langauges used 
@@ -214,20 +196,23 @@ The company provided all the information regarding the content information. The 
 - [Henstaff Construction](https://www.henstaff.co.uk/)
 
 ### Code 
-My mentor Martina XXXX advice me from the first moment to use flex to position my elements. By the time I had this meeting I was strggling with the positioning of elements but with the [flexfrog tutorial](https://flexboxfroggy.com/) and this [flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to understand how does flexbox work and what are its uses and limitations. 
 
-The main highlught for the project is the "hamburger" menu. Due to best practices and large navigation bar, this type of manu is ideal for the display in smaller devices. Therefore, I went ahead in the [Code Institude](https://codeinstitute.net/global/) full stack development lessons to undestand the principles of variables in javascript and on how to make html ids and classes into javascript variables. The serouces used were: 
+From the very beginning, my mentor Martina Terlevic advised me to utilize flexbox for element positioning. However, as I encountered challenges in this area, I sought further guidance. I found the [flexfrog tutorial](https://flexboxfroggy.com/) and [flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), which proved invaluable in helping me understand the workings of flexbox, its various applications, and any limitations it may have. These resources provided me with the necessary knowledge and skills to overcome my struggles and effectively utilize flexbox for optimal element positioning.
+
+The standout feature of the project is the implementation of the "hamburger" menu. This menu type is well-suited for smaller devices due to best practices and a large navigation bar. To accomplish this, I referred to the full stack development lessons on [Code Institude](https://codeinstitute.net/global/) to grasp the principles of variables in JavaScript and learn how to transform HTML ids and classes into JavaScript variables. The resources utilized for this purpose were:
+
 - [W3C schools](https://www.w3schools.com/jsref/met_document_queryselector.asp) 
 - [Tahmid Ahmed youtube tutorial](https://www.youtube.com/watch?v=VRrEquQfh88)
+
+Furthermore, I drew inspiration for form styling and interaction from the following source:
+- [CodingLab](https://www.youtube.com/watch?v=okbByPWS1Xc)
 
 ### Media
 The hero image was the only image taken from a free stock page: 
 - [Road avenue with adjacent trees from Pixabay](https://pixabay.com/photos/asphalt-street-trees-avenue-2178703/)
 
 The rest of the picture where provided directly from the existing company in Colombia. The contact details are the follwoing: 
-
 - Eduardo Velasquez
-- +57 3112825558
 - eaduardoantoniovelasquezv@gmail.com
 
 

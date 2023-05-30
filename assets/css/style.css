@@ -580,7 +580,7 @@ p {
 }
 
 #company_info_container, #mission_vision_container, #values_container {
-    margin: 75px;
+    margin: 100px 75px;
     width: 100%;
 }
 
@@ -593,7 +593,7 @@ p {
 #mission_vision_container h2,
 #values_container h2 {
     text-align: center;
-    border-bottom: 161622 solid 2px;
+    border-bottom: #161622 solid 2px;
 }
 
 #mission_vision_container {
@@ -685,7 +685,7 @@ p {
 }
 
 .services_container {
-    margin: 75px;
+    margin: 100px 75px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -693,7 +693,7 @@ p {
 }
 
 .services_container_inverted {
-    margin: 75px;
+    margin: 100px 75px;
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
