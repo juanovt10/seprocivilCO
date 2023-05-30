@@ -656,7 +656,7 @@ p {
 
 @media (max-width: 650px) {
     #company_info_container, #mission_vision_container, #values_container {
-        margin: 50px 25px;
+        margin: 100px 25px;
     } 
     #company_info_container h1 {
         margin-bottom: 10px;
@@ -843,11 +843,11 @@ p {
     }
 
     .services_container {
-        margin: 50px 25px;
+        margin: 100px 25px;
     } 
 
     .services_container_inverted {
-        margin: 50px 25px;
+        margin: 100px 25px;
     } 
 }
 
@@ -865,7 +865,7 @@ p {
 }
 
 #gallery_intro_container {
-    margin: 75px;
+    margin: 100px 75px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -927,7 +927,7 @@ p {
 
 @media (max-width: 780px) {
     #gallery_intro_container {
-        margin: 50px 25px;
+        margin: 100px 25px;
     }
     #gallery_container img {
         width: 100%;
